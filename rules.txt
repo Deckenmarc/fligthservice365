@@ -1,0 +1,2886 @@
+================================================================================
+COMPLETE WEBSITE RECREATION GUIDE: www.flightservice365.com
+================================================================================
+
+This file contains ALL information needed to recreate the website exactly.
+Images are listed in a separate file: IMAGE_LIST.txt
+
+================================================================================
+1. COLOR PALETTE
+================================================================================
+
+PRIMARY COLORS (extracted from CSS):
+  - Black: #000000
+  - White: #ffffff
+  - Cyan Bluish Gray: #abb8c3
+  - Pale Pink: #f78da7
+  - Vivid Red: #cf2e2e
+  - Luminous Vivid Orange: #ff6900
+  - Luminous Vivid Amber: #fcb900
+  - Light Green Cyan: #7bdcb5
+  - Vivid Green Cyan: #00d084
+  - Pale Cyan Blue: #8ed1fc
+  - Vivid Cyan Blue: #0693e3
+  - Vivid Purple: #9b51e0
+
+ACCENT COLORS:
+  - Yellow Accent (hover/highlight): #ffe928
+  - Dark Gray (buttons): #32373c
+
+BACKGROUND COLORS:
+  - Primary backgrounds use dark gray to black tones
+  - Sections alternate between #111111, #202020, #333333
+
+================================================================================
+2. TYPOGRAPHY
+================================================================================
+
+FONT SIZES:
+  - Small: 13px
+  - Medium: 20px
+  - Large: 36px
+  - X-Large: 42px
+
+FONT FAMILIES:
+  - The site uses system fonts with 'font-family: inherit'
+  - Recommended: Use 'Roboto' or 'Montserrat' for modern sans-serif look
+  - Headings: Bold, large sizes (36px-42px)
+  - Body: Medium size (20px)
+  - Small text: 13px
+
+================================================================================
+3. LAYOUT & SPACING
+================================================================================
+
+CONTENT WIDTHS:
+  - Content Size: 800px
+  - Wide Size: 1200px
+
+SPACING SCALE:
+  - 20: 0.44rem
+  - 30: 0.67rem
+  - 40: 1rem
+  - 50: 1.5rem
+  - 60: 2.25rem
+  - 70: 3.38rem
+  - 80: 5.06rem
+
+BLOCK GAP: 24px
+
+================================================================================
+4. LOGO & BRANDING
+================================================================================
+
+PRIMARY LOGO:
+  Path: wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+  Size: 600x75 pixels
+  Type: White text on transparent background (for dark backgrounds)
+
+ALTERNATIVE LOGO:
+  Path: wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+  Size: 300x38 pixels
+
+================================================================================
+5. COMPLETE PAGE STRUCTURE
+================================================================================
+
+Total Pages: 23
+Languages: German (de-DE) and English (en)
+
+--------------------------------------------------------------------------------
+PAGE: blockcharter-2/index.html
+--------------------------------------------------------------------------------
+
+TITLE: BlockCharter - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../blockcharter/index.html
+
+META DESCRIPTION:
+  Nutzen Sie das sonnige Wetter auf Mallorca für Flüge nach Sichtflugregeln. Entdecken Sie unsere Vorteile des Block-Charter Angebots und sparen Sie Kosten. Ideal für Vereine und Flugschulen. Hervorragende Infrastruktur für An- & Abreise, Übernachtung und Freizeitvergnügen. Kontaktieren Sie uns für Preise und weitere Informationen.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: BlockCharter - Flight Service
+  og:description: Nutzen Sie das sonnige Wetter auf Mallorca für Flüge nach Sichtflugregeln. Entdecken Sie unsere Vorteile des Block-Charter Angebots und sparen Sie Kosten. Ideal für Vereine und Flugschulen. Hervorragende Infrastruktur für An- & Abreise, Übernachtung und Freizeitvergnügen. Kontaktieren Sie uns für Preise und weitere Informationen.
+  og:url: https://www.flightservice365.com/blockcharter/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/background-5-min-1536x1153.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=94.html
+  en: ../en/index.html%3Fp=313.html
+  x-default: ../index.html%3Fp=94.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Block Charter
+  H2: Block Charter
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/background-5-min-1536x1153.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 1536x1153
+  7. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+BlockCharter - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Block Charter
+Garantierter Zugriff auf ein Flugzeugmuster am Stück
+VFR-Schulung an nahezu 365 Tagen im Jahr
+Block Charter
+Nutzen Sie das sichere Wetter in Mallorca und heben als VFR-Flieger nahezu garantiert zu Flügen nach Sichtflugr
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=94.html#content
+  2. Deutsch -> ../index.html%3Fp=94.html
+  3. English -> ../en/index.html%3Fp=313.html
+  4. Deutsch -> ../index.html%3Fp=94.html
+  5. English -> ../en/index.html%3Fp=313.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: blockcharter/index.html
+--------------------------------------------------------------------------------
+
+TITLE: BlockCharter - Flight Service
+LANGUAGE: de-DE
+CANONICAL: index.html
+
+META DESCRIPTION:
+  Nutzen Sie das sonnige Wetter auf Mallorca für Flüge nach Sichtflugregeln. Entdecken Sie unsere Vorteile des Block-Charter Angebots und sparen Sie Kosten. Ideal für Vereine und Flugschulen. Hervorragende Infrastruktur für An- & Abreise, Übernachtung und Freizeitvergnügen. Kontaktieren Sie uns für Preise und weitere Informationen.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: BlockCharter - Flight Service
+  og:description: Nutzen Sie das sonnige Wetter auf Mallorca für Flüge nach Sichtflugregeln. Entdecken Sie unsere Vorteile des Block-Charter Angebots und sparen Sie Kosten. Ideal für Vereine und Flugschulen. Hervorragende Infrastruktur für An- & Abreise, Übernachtung und Freizeitvergnügen. Kontaktieren Sie uns für Preise und weitere Informationen.
+  og:url: https://www.flightservice365.com/blockcharter/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/background-5-min-1536x1153.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=94.html
+  en: ../en/index.html%3Fp=313.html
+  x-default: ../index.html%3Fp=94.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Block Charter
+  H2: Block Charter
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/background-5-min-1536x1153.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 1536x1153
+  7. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+BlockCharter - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Block Charter
+Garantierter Zugriff auf ein Flugzeugmuster am Stück
+VFR-Schulung an nahezu 365 Tagen im Jahr
+Block Charter
+Nutzen Sie das sichere Wetter in Mallorca und heben als VFR-Flieger nahezu garantiert zu Flügen nach Sichtflugr
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=94.html#content
+  2. Deutsch -> ../index.html%3Fp=94.html
+  3. English -> ../en/index.html%3Fp=313.html
+  4. Deutsch -> ../index.html%3Fp=94.html
+  5. English -> ../en/index.html%3Fp=313.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/aircraft-charter/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Aircraft charter - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=455.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Aircraft charter - Flight Service
+  og:description: Aircraft Charter Excursion or business trip Self-flying or accompanied by an instructor Would you like to fly yourself or be flown to a business appointment safely and quickly? Or would you rather take off in the company of an experienced pilot? It doesn’t matter – with us you will always find an optimally maintained, clean […]
+  og:url: https://www.flightservice365.com/en/aircraft-charter/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/background-5-min-1024x769.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=101.html
+  en: ../index.html%3Fp=455.html
+  x-default: ../../index.html%3Fp=101.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Aircraft Charter
+  H2: 
+  H2: Our Aircrafts
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Excursion or business trip Self-flying or accompanied by an instructor
+  H3: Cessna T303 Crussader
+  H3: Socata TB20 Trinidad
+  H3: Piper Turbo Arrow IV (P28U)
+  H3: Piper Arrow IV non Turbo
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (16 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/background-5-min-1024x769.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x601
+  7. ../../wp-content/uploads/elementor/thumbs/banner-1-min-pzj26omx418e1gyoyvec5pu6g9ldxtp8r043gsra88.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+  8. ../../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Cessna T303 Crussader
+     SIZE: 100x100
+  9. ../../wp-content/uploads/elementor/thumbs/banner-2-min-pzj26qilhpayoovynw7lapd3n1c4d7wpf9f2fcohvs.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+  10. ../../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Socata TB20 Trinidad
+     SIZE: 100x100
+  11. ../../wp-content/uploads/2022/12/c3e83585-6529-4111-a052-e1613c9330f4-1-e1676549434133-768x768.jpg
+     SIZE: 768x768
+  12. ../../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Piper Turbo Arrow IV (P28U)
+     SIZE: 100x100
+  13. ../../wp-content/uploads/2022/12/PHOTO-2022-11-30-18-58-28-e1671032748432.jpg
+     SIZE: 755x739
+  14. ../../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Piper Arrow IV non Turbo
+     SIZE: 100x100
+  15. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  16. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Aircraft charter - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Aircraft Charter
+Excursion or business trip Self-flying or accompanied by an instructor
+Would you like to fly yourself or be flown to a business appointment safely and quickly?
+Or would you rather take off in the company of an experienced p
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=455.html#content
+  2. English -> ../index.html%3Fp=455.html
+  3. Deutsch -> ../../index.html%3Fp=101.html
+  4. English -> ../index.html%3Fp=455.html
+  5. Deutsch -> ../../index.html%3Fp=101.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/blockcharter/index.html
+--------------------------------------------------------------------------------
+
+TITLE: BlockCharter - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=313.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: BlockCharter - Flight Service
+  og:description: Block Charter Guaranteed access to one aircraft type at a time VFR training almost 365 days a year Block Charter Take advantage of the safe weather in Mallorca and, as a VFR pilot, you are almost guaranteed to fly according to visual flight rules. Sunny weather more than 300 days a year – the best […]
+  og:url: https://www.flightservice365.com/en/blockcharter/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/background-5-min-1536x1153.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=94.html
+  en: ../index.html%3Fp=313.html
+  x-default: ../../index.html%3Fp=94.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Block Charter
+  H2: Block Charter
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/background-5-min-1536x1153.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 1536x1153
+  7. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+BlockCharter - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Block Charter
+Guaranteed access to one aircraft type at a time
+VFR training almost 365 days a year
+Block Charter
+Take advantage of the safe weather in Mallorca and, as a VFR pilot, you are almost guaranteed to fly according to visual flight rul
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=313.html#content
+  2. English -> ../index.html%3Fp=313.html
+  3. Deutsch -> ../../index.html%3Fp=94.html
+  4. English -> ../index.html%3Fp=313.html
+  5. Deutsch -> ../../index.html%3Fp=94.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/contact/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Contact - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=462.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Contact - Flight Service
+  og:description: CONTACT Our Location Son Bonet Edificio Antiguo Centro de Control Ctra.Palma-Inca, km 6 07141 Marratxi Phone +34 691 367 430 +49 171 6502219 Email contact@flightservice365.com
+  og:url: https://www.flightservice365.com/en/contact/
+  og:site_name: Flight Service
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=107.html
+  en: ../index.html%3Fp=462.html
+  x-default: ../../index.html%3Fp=107.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: CONTACT
+  H2: Our Location
+  H2: Phone
+  H2: Email
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (7 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  7. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Contact - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+CONTACT
+Name
+Email
+Message
+Send
+Our Location
+Son Bonet
+Edificio Antiguo Centro de Control
+Ctra.Palma-Inca, km 6
+07141 Marratxi
+Phone
++34 691 367 430
++49 171 6502219
+Email
+contact@flightservice365.com
+Call us
++34 691 367 430
++49 171 6502219
+Send Us A
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=462.html#content
+  2. English -> ../index.html%3Fp=462.html
+  3. Deutsch -> ../../index.html%3Fp=107.html
+  4. English -> ../index.html%3Fp=462.html
+  5. Deutsch -> ../../index.html%3Fp=107.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/fleet/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Fleet - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=434.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Fleet - Flight Service
+  og:description: Our fleet Cessna T303 Crussader Cessna T303 Crussader 2-engine travel and business aircraft Power: 2x 250 hp Cruising speed: 363 km/h (196 kts) Max takeoff weight: 2,346 kg Range: 895 NM (1,658 km) Navigation: VOR, DME, 2x Garmin GNS430, autopilot IFR approval & de-icing Socata TB20 Trinidad Socata TB20 Trinidad 1-engine short-haul and excursion aircraft […]
+  og:url: https://www.flightservice365.com/en/fleet/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/banner-1-min.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=98.html
+  en: ../index.html%3Fp=434.html
+  x-default: ../../index.html%3Fp=98.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Our fleet
+  H2: Cessna T303 Crussader
+  H2: Socata TB20 Trinidad
+  H2: Piper Turbo Arrow IV (P28U)
+  H2: Piper Arrow IV non Turbo
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Cessna T303 Crussader
+  H3: Socata TB20 Trinidad
+  H3: Piper Turbo Arrow IV (P28U)
+  H3: Piper Arrow IV non Turbo
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (11 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/banner-1-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 700x933
+  7. ../../wp-content/uploads/2022/12/image10-768x770.jpg
+     SIZE: 768x770
+  8. ../../wp-content/uploads/2022/12/c3e83585-6529-4111-a052-e1613c9330f4-1-e1676549434133-768x768.jpg
+     SIZE: 768x768
+  9. ../../wp-content/uploads/2022/12/PHOTO-2022-11-30-18-58-28-e1671032748432.jpg
+     SIZE: 755x739
+  10. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  11. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Fleet - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Our fleet
+Cessna T303 Crussader
+Cessna T303 Crussader
+2-engine travel and business aircraft
+Power: 2x 250 hp
+Cruising speed: 363 km/h (196 kts)
+Max takeoff weight: 2,346 kg
+Range: 895 NM (1,658 km)
+Navigation: VOR, DME, 2x Garmin GNS430, autopilot
+IFR
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=434.html#content
+  2. English -> ../index.html%3Fp=434.html
+  3. Deutsch -> ../../index.html%3Fp=98.html
+  4. English -> ../index.html%3Fp=434.html
+  5. Deutsch -> ../../index.html%3Fp=98.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/hour-building/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Hour building - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=457.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Hour building - Flight Service
+  og:description: Hour-Building Faster build-up of the compulsory hours for the license Proof of hours for maintaining the license Hour-Building The easiest and most efficient way to get the flight hours you need to get your license or the next step in your training. Take advantage of the safe weather in Mallorca and, as a VFR pilot, […]
+  og:url: https://www.flightservice365.com/en/hour-building/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/image33-1024x768.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=103.html
+  en: ../index.html%3Fp=457.html
+  x-default: ../../index.html%3Fp=103.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Hour-Building
+  H2: Hour-Building
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/image33-1024x768.jpg
+     SIZE: 800x600
+  7. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Hour building - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Hour-Building
+Faster build-up of the compulsory hours for the license
+Proof of hours for maintaining the license
+Hour-Building
+The easiest and most efficient way to get the flight hours you need to get your license or the next step in your tra
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=457.html#content
+  2. English -> ../index.html%3Fp=457.html
+  3. Deutsch -> ../../index.html%3Fp=103.html
+  4. English -> ../index.html%3Fp=457.html
+  5. Deutsch -> ../../index.html%3Fp=103.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Home - Flight Service
+LANGUAGE: en-US
+CANONICAL: index.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: website
+  og:title: Home - Flight Service
+  og:description: Supporting pilots – Inspiring guests – Enabling students …TRY US & FLY US – The revolutionary experience – perfect service and highest quality – VERY SIMPLE… Supporting pilots – Inspiring guests – Enabling students …TRY US & FLY US – The revolutionary experience – perfect service and highest quality – VERY SIMPLE… SERVICES What you […]
+  og:url: https://www.flightservice365.com/en/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/banner-1-square-700-min.jpg
+
+HREFLANG TAGS:
+  de: ../index.html
+  en: index.html
+  x-default: ../index.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Supporting pilots- Inspiring guests -Enabling students
+  H2: Supporting pilots- Inspiring guests -Enabling students
+  H2: SERVICES
+  H2: Our Team
+  H2: Gregor Schulz
+  H2: Marcus Schulz
+  H2: Erika Elsser
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: ...TRY US & FLY US – The revolutionary experience - perfect service and highest quality - VERY SIMPLE...
+  H3: ...TRY US & FLY US – The revolutionary experience - perfect service and highest quality - VERY SIMPLE...
+  H3: Aircraft Charter
+  H3: Block Charter
+  H3: Hour-Building
+  H3: Training PPL-365
+  H3: Trial Flights
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (20 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/banner-1-square-700-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 700x700
+  7. ../wp-content/uploads/2022/12/icon-1-min.png
+     ALT: Aircraft Charter
+     SIZE: 100x93
+  8. ../wp-content/uploads/2022/12/banner-2-square-700-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 700x700
+  9. ../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Block Charter
+     SIZE: 100x100
+  10. ../wp-content/uploads/2022/12/banner-2-square-700-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 700x700
+  11. ../wp-content/uploads/2022/12/icon-1-min.png
+     ALT: Hour-Building
+     SIZE: 100x93
+  12. ../wp-content/uploads/2022/12/banner_3-square-500-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 500x500
+  13. ../wp-content/uploads/2022/12/icon-3-min.png
+     ALT: Training PPL-365
+     SIZE: 100x73
+  14. ../wp-content/uploads/2022/12/banner_4-square-500-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 500x500
+  15. ../wp-content/uploads/2022/12/icon-4-min.png
+     ALT: Trial Flights
+     SIZE: 100x100
+  16. ../wp-content/uploads/2022/12/team-3-min.jpg
+     ALT: Gregor Schulz
+     SIZE: 386x506
+  17. ../wp-content/uploads/2022/12/team-2-min.jpg
+     ALT: Marcus Schulz
+     SIZE: 396x512
+  18. ../wp-content/uploads/2022/12/team-1-min.jpg
+     ALT: Erika Elsser
+     SIZE: 386x492
+  19. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  20. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Home - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Supporting pilots
+- Inspiring guests -
+Enabling students
+...TRY US & FLY US – The revolutionary experience - perfect service and highest quality - VERY SIMPLE...
+Supporting pilots
+- Inspiring guests -
+Enabling students
+...TRY US & FLY US – The revoluti
+
+KEY LINKS (31 total):
+  1. Skip to content -> index.html#content
+  2. English -> index.html
+  3. Deutsch -> ../index.html
+  4. English -> index.html
+  5. Deutsch -> ../index.html
+  7. Home -> index.html
+  8. Aircraft charter -> index.html%3Fp=455.html
+  9. BlockCharter -> index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> index.html%3Fp=457.html
+  12. Trial flights -> index.html%3Fp=432.html
+  13. Team -> index.html%3Fp=466.html
+  14. Fleet -> index.html%3Fp=434.html
+  15. Locations -> index.html%3Fp=468.html
+  ... and 16 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/locations/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Locations - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=468.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Locations - Flight Service
+  og:description: Airports Locations Son Bonet (ICAO: LESB) Palma de Mallorca – Mallorca In our office at the airport of Son Bonet we welcome you to all activities in Mallorca. Whether charter, hour-building, sightseeing flight or VIP shuttle – from Son Bonet you are in the air quickly and easily. Thanks to the good transport connections and […]
+  og:url: https://www.flightservice365.com/en/locations/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/stuttgart-236823_1920_blau1-768x512-1.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=111.html
+  en: ../index.html%3Fp=468.html
+  x-default: ../../index.html%3Fp=111.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Airports Locations
+  H2: Son Bonet (ICAO: LESB)
+Palma de Mallorca – Mallorca
+  H2: Location Mallorca
+  H2: Tel:
+  H2: Stuttgart (ICAO: EDDS)
+Stuttgart – Germany
+  H2: Flightservice365Office & Administration
+Stuttgart – Germany
+  H2: Office Stuttgart
+  H2: Tel:
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/stuttgart-236823_1920_blau1-768x512-1.jpg
+  7. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Locations - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Airports Locations
+Son Bonet (ICAO: LESB)
+Palma de Mallorca – Mallorca
+In our office at the airport of Son Bonet we welcome you to all activities in Mallorca.
+Whether charter, hour-building, sightseeing flight or VIP shuttle – from Son Bonet you a
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=468.html#content
+  2. English -> ../index.html%3Fp=468.html
+  3. Deutsch -> ../../index.html%3Fp=111.html
+  4. English -> ../index.html%3Fp=468.html
+  5. Deutsch -> ../../index.html%3Fp=111.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/team/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Team - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=466.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Team - Flight Service
+  og:description: Our Team General Manager, Cpt. retd Instructor and COO, Gregor Schulz The experienced pilot and instructor has been in the cockpit for over 50 years. He draws on the experience of several thousand flight hours on various aircraft types. As a pilot and instructor, he is happy to pass on his experience. It is always […]
+  og:url: https://www.flightservice365.com/en/team/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/team-3-min.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=113.html
+  en: ../index.html%3Fp=466.html
+  x-default: ../../index.html%3Fp=113.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Our Team
+  H2: Gregor Schulz
+  H2: Marcus Schulz
+  H2: Rodric, Neri
+  H2: Alvaro Francisco, Del Alcazar Balareasque
+  H2: Andreas, Horn
+  H2: Kay Czayka
+  H2: Erika Elsser
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: General Manager, Cpt. retd Instructor and COO,
+  H3: Safety pilot with a lot of experience on pistons and turbines
+  H3: Pilot and instructor
+  H3: Pilot and instructor
+  H3: Pilot and instructor
+  H3: Guest Relations
+  H3: CEO - Managing Director
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (14 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/team-3-min.jpg
+     SIZE: 386x506
+  7. ../../wp-content/uploads/2022/12/team-2-min.jpg
+     SIZE: 396x512
+  8. ../../wp-content/uploads/2022/12/image16.png
+     SIZE: 687x800
+  9. ../../wp-content/uploads/2022/12/image16.png
+     SIZE: 687x800
+  10. ../../wp-content/uploads/2022/12/image16.png
+     SIZE: 687x800
+  11. ../../wp-content/uploads/2022/12/image16.png
+     SIZE: 687x800
+  12. ../../wp-content/uploads/2022/12/team-1-min.jpg
+     SIZE: 386x492
+  13. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  14. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Team - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Our Team
+General Manager, Cpt. retd Instructor and COO,
+Gregor Schulz
+The experienced pilot and instructor has been in the cockpit for over 50 years. He draws on the experience of several thousand flight hours on various aircraft types. As a pilot and 
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=466.html#content
+  2. English -> ../index.html%3Fp=466.html
+  3. Deutsch -> ../../index.html%3Fp=113.html
+  4. English -> ../index.html%3Fp=466.html
+  5. Deutsch -> ../../index.html%3Fp=113.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: en/trialflights/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Trial flights - Flight Service
+LANGUAGE: en-US
+CANONICAL: ../index.html%3Fp=432.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: en_US
+  og:type: article
+  og:title: Trial flights - Flight Service
+  og:description: Trial Flight A trial flight over Mallorca A whole new perspective and an unforgettable experience Would you like to finally enjoy your favorite island from above in peace and quiet? How often have you looked out the window of your holiday plane in frustration and annoyed that the island was disappearing beneath you so quickly? […]
+  og:url: https://www.flightservice365.com/en/trialflights/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/image15-1024x768.jpg
+
+HREFLANG TAGS:
+  de: ../../index.html%3Fp=116.html
+  en: ../index.html%3Fp=432.html
+  x-default: ../../index.html%3Fp=116.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Trial Flight
+  H2: Sa Forradada
+  H2: Sa Dragonera
+  H2: ALCUDIA – ARTA – SINEU
+  H2: SIERRA DE LA TRAMONTANA – POLLENSA – ALCUDIA – INCA
+  H2: MALLORCA ISLAND TRAILFLIGHT
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (12 total):
+  1. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  2. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  3. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  4. ../../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  5. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../../wp-content/uploads/2022/12/image15-1024x768.jpg
+     SIZE: 800x600
+  7. ../../wp-content/uploads/2022/12/image33-1024x768.jpg
+     SIZE: 800x600
+  8. https://www.flightservice365.com/wp-content/uploads/2022/12/image31.jpg
+  9. https://www.flightservice365.com/wp-content/uploads/2022/12/image26.jpg
+  10. ../../wp-content/uploads/2022/12/20200308_150316-1-scaled-1-1024x576.jpg
+     SIZE: 800x450
+  11. ../../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  12. ../../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Trial flights - Flight Service
+Skip to content
+contact@flightservice365.com
+English
+Deutsch
+English
+Deutsch
+Home
+Services
+Aircraft charter
+BlockCharter
+PPL365
+Hour building
+Trial flights
+About us
+Team
+Fleet
+Locations
+Contact
++34 691 367 430
++49 171 6502219
+Trial Flight
+A trial flight over Mallorca
+A whole new perspective and an unforgettable experience
+Would you like to finally enjoy your favorite island from above in peace and quiet?
+How often have you looked out the window of your holiday plan
+
+KEY LINKS (24 total):
+  1. Skip to content -> ../index.html%3Fp=432.html#content
+  2. English -> ../index.html%3Fp=432.html
+  3. Deutsch -> ../../index.html%3Fp=116.html
+  4. English -> ../index.html%3Fp=432.html
+  5. Deutsch -> ../../index.html%3Fp=116.html
+  7. Home -> ../index.html
+  8. Aircraft charter -> ../index.html%3Fp=455.html
+  9. BlockCharter -> ../index.html%3Fp=313.html
+  10. PPL365 -> https://www.flightservice365.com/en/ppl365/
+  11. Hour building -> ../index.html%3Fp=457.html
+  12. Trial flights -> ../index.html%3Fp=432.html
+  13. Team -> ../index.html%3Fp=466.html
+  14. Fleet -> ../index.html%3Fp=434.html
+  15. Locations -> ../index.html%3Fp=468.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: flotte/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Flotte - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../index.html%3Fp=98.html
+
+META DESCRIPTION:
+  Entdecken Sie unsere Flotte von modernen und sicheren Flugzeugen für jeden Anlass. Erfahren Sie mehr über unsere Flugzeuge, ihre Ausstattung und Kapazität auf der Flotte-Seite von Flight Service 365. Kontaktieren Sie uns, um ein Flugzeug für Ihre nächste Reise zu buchen.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Flotte - Flight Service
+  og:description: Entdecken Sie unsere Flotte von modernen und sicheren Flugzeugen für jeden Anlass. Erfahren Sie mehr über unsere Flugzeuge, ihre Ausstattung und Kapazität auf der Flotte-Seite von Flight Service 365. Kontaktieren Sie uns, um ein Flugzeug für Ihre nächste Reise zu buchen.
+  og:url: https://www.flightservice365.com/flotte/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/banner-1-min.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=98.html
+  en: ../en/index.html%3Fp=434.html
+  x-default: ../index.html%3Fp=98.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Unsere Flotte
+  H2: Socata TB20 Trinidad
+  H2: Piper Turbo Arrow IV (P28U)
+  H2: Ausbildung
+  H2: Tecnam  2006 TC
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Socata TB20 Trinidad
+  H3: Piper Turbo Arrow IV (P28U)
+  H3: Cessna FR 172 F Rocket (High wing aircraft)
+  H3: Tecnam  2006 TC
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (11 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/image10-768x770.jpg
+     SIZE: 768x770
+  7. ../wp-content/uploads/2022/12/c3e83585-6529-4111-a052-e1613c9330f4-1-e1676549434133-768x768.jpg
+     SIZE: 768x768
+  8. ../wp-content/uploads/2025/09/WhatsApp-Image-2025-09-10-at-13.42.25-1-1024x768.jpeg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x600
+  9. ../wp-content/uploads/2025/09/WhatsApp-Image-2025-09-15-at-16.40.32-1024x574.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x448
+  10. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  11. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Flotte - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Unsere Flotte
+Socata TB20 Trinidad
+Socata TB20 Trinidad
+1-motoriges Kurzstrecken- und Ausflugsflugzeug  
+Leistung: 250 PS
+Reisegeschwindigkeit: 290 km/h (157 Kts)
+Max. Startgewicht: 1.399 kg
+Reichweite: 1050 NM (1.700 Km)
+Navigation: VOR, 
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=98.html#content
+  2. Deutsch -> ../index.html%3Fp=98.html
+  3. English -> ../en/index.html%3Fp=434.html
+  4. Deutsch -> ../index.html%3Fp=98.html
+  5. English -> ../en/index.html%3Fp=434.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: flugzeugcharter/index.html
+--------------------------------------------------------------------------------
+
+TITLE: FlugzeugCharter - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../index.html%3Fp=101.html
+
+META DESCRIPTION:
+  Erfüllen Sie sich Ihren Traum vom Privatjet und erleben Sie unvergessliche Reisen mit Flight Service 365. Buchen Sie einen Flugzeugcharter für Ihre nächste Geschäftsreise oder den Familienurlaub. Entdecken Sie unser breites Angebot an Flugzeugtypen und lassen Sie sich von unserem erfahrenen Team beraten. Kontaktieren Sie uns für ein unverbindliches Angebot.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: FlugzeugCharter - Flight Service
+  og:description: Erfüllen Sie sich Ihren Traum vom Privatjet und erleben Sie unvergessliche Reisen mit Flight Service 365. Buchen Sie einen Flugzeugcharter für Ihre nächste Geschäftsreise oder den Familienurlaub. Entdecken Sie unser breites Angebot an Flugzeugtypen und lassen Sie sich von unserem erfahrenen Team beraten. Kontaktieren Sie uns für ein unverbindliches Angebot.
+  og:url: https://www.flightservice365.com/flugzeugcharter/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/background-5-min-1024x769.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=101.html
+  en: ../en/index.html%3Fp=455.html
+  x-default: ../index.html%3Fp=101.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Flugzeug Charter
+  H2: 
+  H2: Unsere Flugzeuge
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Ausflug oder Geschäftsreise Selbstflieger oder in Begleitung eines Instruktors
+  H3: Socata TB20 Trinidad
+  H3: Piper Turbo Arrow IV (P28U)
+  H3: Cessna FR 172 F Rocket
+  H3: Tecnam  2006 TC
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (16 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/background-5-min-1024x769.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x601
+  7. ../wp-content/uploads/elementor/thumbs/Flug-01-q28z6ju65zl0pdtrvjcvoh7zouaxc8div0zevf26iw.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+  8. ../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Socata TB20 Trinidad
+     SIZE: 100x100
+  9. ../wp-content/uploads/elementor/thumbs/Flug-03-q28z6nlixbq5ztob9kzdyg9u2dse70sg7jlcsiwlu0.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+  10. ../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Piper Turbo Arrow IV (P28U)
+     SIZE: 100x100
+  11. ../wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-09-10-at-13.42.25-1-rboqha6x4rd6p4q89y32vtb6z0evst2mxcercgu8w8.jpeg
+     ALT: EFSFlightSchool - Flightservice 365
+  12. ../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Cessna FR 172 F Rocket
+     SIZE: 100x100
+  13. ../wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-09-15-at-16.40.32-rbsr5tfjnhgglv1i3d4dfgifr07kdqldp72te63e6g.webp
+     ALT: EFSFlightSchool - Flightservice 365
+  14. ../wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Tecnam  2006 TC
+     SIZE: 100x100
+  15. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  16. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+FlugzeugCharter - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Flugzeug Charter
+Ausflug oder Geschäftsreise Selbstflieger oder in Begleitung eines Instruktors
+Sie möchten selbst fliegen oder sicher und schnell zu einem Geschäftstermin geflogen werden?
+Oder möchten Sie lieber in Begleitung ein
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=101.html#content
+  2. Deutsch -> ../index.html%3Fp=101.html
+  3. English -> ../en/index.html%3Fp=455.html
+  4. Deutsch -> ../index.html%3Fp=101.html
+  5. English -> ../en/index.html%3Fp=455.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: hourbuilding/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Hourbuilding - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../index.html%3Fp=103.html
+
+META DESCRIPTION:
+  Steigern Sie Ihre Flugerfahrung und sammeln Sie wertvolle Flugstunden mit Flight Service 365. Entdecken Sie unser Hourbuilding-Angebot für Piloten und profitieren Sie von unseren preisgünstigen Flugstundenpaketen. Wir bieten Ihnen eine große Auswahl an Flugzeugtypen und ein erfahrenes Instruktorenteam für Ihre Ausbildung. Kontaktieren Sie uns für weitere Informationen.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Hourbuilding - Flight Service
+  og:description: Steigern Sie Ihre Flugerfahrung und sammeln Sie wertvolle Flugstunden mit Flight Service 365. Entdecken Sie unser Hourbuilding-Angebot für Piloten und profitieren Sie von unseren preisgünstigen Flugstundenpaketen. Wir bieten Ihnen eine große Auswahl an Flugzeugtypen und ein erfahrenes Instruktorenteam für Ihre Ausbildung. Kontaktieren Sie uns für weitere Informationen.
+  og:url: https://www.flightservice365.com/hourbuilding/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/image33-1024x768.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=103.html
+  en: ../en/index.html%3Fp=457.html
+  x-default: ../index.html%3Fp=103.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Hour-Building
+  H2: Hour-Building
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/image33-1024x768.jpg
+     SIZE: 800x600
+  7. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Hourbuilding - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Hour-Building
+Schneller Aufbau der Pflichstunden für die Lizenz
+Stundennachweis für die Erhaltung der Lizenz
+Hour-Building
+Die einfachste und effizienteste Art die notwendigen Flugstunden für den Erhalt der Lizenz oder den nächsten A
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=103.html#content
+  2. Deutsch -> ../index.html%3Fp=103.html
+  3. English -> ../en/index.html%3Fp=457.html
+  4. Deutsch -> ../index.html%3Fp=103.html
+  5. English -> ../en/index.html%3Fp=457.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: index.html
+--------------------------------------------------------------------------------
+
+TITLE: Startseite - Flight Service
+LANGUAGE: de-DE
+CANONICAL: index.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: website
+  og:title: Startseite - Flight Service
+  og:description: Einzige Deutsche Flugschule mit eigenen Charterflugzeugen Supporting pilots – Inspiring guests – Enabling students …TRY US & FLY US – Das revolutionäre Erlebnis – Perfekter Service und höchste Qualität – GANZ EINFACH… Supporting pilots – Inspiring guests – Enabling students …TRY US & FLY US – Das revolutionäre Erlebnis – Perfekter Service und höchste Qualität […]
+  og:url: https://www.flightservice365.com/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/banner-1-square-700-min.jpg
+
+HREFLANG TAGS:
+  de: index.html
+  en: en/index.html
+  x-default: index.html
+
+HEADINGS STRUCTURE:
+  H1: Einzige Deutsche Flugschule mit eigenen Charterflugzeugen
+  H2: +49 171 6502219
+  H2: Supporting pilots- Inspiring guests -Enabling students
+  H2: Supporting pilots- Inspiring guests -Enabling students
+  H2: SERVICES
+  H2: Unser Team
+  H2: Gregor Schulz
+  H2: Marcus Schulz
+  H2: Erika Elsser
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: ...TRY US & FLY US – Das revolutionäre Erlebnis – Perfekter Service und höchste Qualität – GANZ EINFACH…
+  H3: ...TRY US & FLY US – Das revolutionäre Erlebnis – Perfekter Service und höchste Qualität – GANZ EINFACH…
+  H3: Flugzeug Charter
+  H3: Block Charter
+  H3: Hour-Building
+  H3: Ausbildung PPL-A/NFQ
+  H3: Trialflights
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (20 total):
+  1. wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. wp-content/uploads/2025/09/WhatsApp-Image-2025-09-10-at-13.42.25-1.jpeg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 1600x1200
+  7. wp-content/uploads/2022/12/icon-1-min.png
+     ALT: Flugzeug Charter
+     SIZE: 100x93
+  8. wp-content/uploads/2022/12/banner-2-square-700-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 700x700
+  9. wp-content/uploads/2022/12/icon-2-min.png
+     ALT: Block Charter
+     SIZE: 100x100
+  10. wp-content/uploads/2022/12/banner-2-square-700-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 700x700
+  11. wp-content/uploads/2022/12/icon-1-min.png
+     ALT: Hour-Building
+     SIZE: 100x93
+  12. wp-content/uploads/2022/12/banner_3-square-500-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 500x500
+  13. wp-content/uploads/2022/12/icon-3-min.png
+     ALT: Ausbildung PPL-A/NFQ
+     SIZE: 100x73
+  14. wp-content/uploads/2022/12/banner_4-square-500-min.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 500x500
+  15. wp-content/uploads/2022/12/icon-4-min.png
+     ALT: Trialflights
+     SIZE: 100x100
+  16. wp-content/uploads/2022/12/team-3-min.jpg
+     ALT: Gregor Schulz
+     SIZE: 386x506
+  17. wp-content/uploads/2022/12/team-2-min.jpg
+     ALT: Marcus Schulz
+     SIZE: 396x512
+  18. wp-content/uploads/2022/12/team-1-min.jpg
+     ALT: Erika Elsser
+     SIZE: 386x492
+  19. wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  20. wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Startseite - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Einzige Deutsche Flugschule mit eigenen Charterflugzeugen
+Supporting pilots
+- Inspiring guests -
+Enabling students
+...TRY US & FLY US – Das revolutionäre Erlebnis – Perfekter Service und höchste Qualität – GANZ EINFACH…
+Supporting pilo
+
+KEY LINKS (31 total):
+  1. Zum Inhalt springen -> index.html#content
+  2. Deutsch -> index.html
+  3. English -> en/index.html
+  4. Deutsch -> index.html
+  5. English -> en/index.html
+  7. Startseite -> index.html
+  8. FlugzeugCharter -> index.html%3Fp=101.html
+  9. BlockCharter -> index.html%3Fp=94.html
+  10. PPL-A/NFQ -> index.html%3Fp=109.html
+  11. Hourbuilding -> index.html%3Fp=103.html
+  12. Trialflights -> index.html%3Fp=116.html
+  13. Team -> index.html%3Fp=113.html
+  14. Flotte -> index.html%3Fp=98.html
+  15. Standorte -> index.html%3Fp=111.html
+  ... and 16 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: kontakt/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Kontakt - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../index.html%3Fp=107.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Kontakt - Flight Service
+  og:description: KONTAKT Unser Standort Son Bonet Edificio 8 – Ctra.Palma-Inca, km 6 – 07141 Marratxi Google Maps Directions Phone +34 691 367 430 +49 171 6502219 Email contact@flightservice365.com
+  og:url: https://www.flightservice365.com/kontakt/
+  og:site_name: Flight Service
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=107.html
+  en: ../en/index.html%3Fp=462.html
+  x-default: ../index.html%3Fp=107.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: KONTAKT
+  H2: Unser Standort
+  H2: Phone
+  H2: Email
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (7 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  7. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Kontakt - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+KONTAKT
+Vorname
+Familienname
+Email
+Message
+Senden
+Unser Standort
+Son Bonet
+Edificio 8 - 
+Ctra.Palma-Inca, km 6
+- 07141 Marratxi
+Google Maps Directions
+Phone
++34 691 367 430
++49 171 6502219
+Email
+contact@flightservice365.com
+Call us
++34 69
+
+KEY LINKS (25 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=107.html#content
+  2. Deutsch -> ../index.html%3Fp=107.html
+  3. English -> ../en/index.html%3Fp=462.html
+  4. Deutsch -> ../index.html%3Fp=107.html
+  5. English -> ../en/index.html%3Fp=462.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 10 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: ppl365-2/index.html
+--------------------------------------------------------------------------------
+
+TITLE: PPL365 - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../ppl365/index.html
+
+META DESCRIPTION:
+  Erfüllen Sie sich den Traum vom eigenen Pilotenschein mit Flight Service 365. Entdecken Sie unser PPL365-Angebot für Privatpilotenlizenzen und profitieren Sie von unserer individuellen und praxisorientierten Ausbildung. Unsere erfahrenen Fluglehrer begleiten Sie auf dem Weg zum Pilotenschein. Kontaktieren Sie uns für weitere Informationen und starten Sie Ihre Pilotenausbildung noch heute.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: PPL365 - Flight Service
+  og:description: Erfüllen Sie sich den Traum vom eigenen Pilotenschein mit Flight Service 365. Entdecken Sie unser PPL365-Angebot für Privatpilotenlizenzen und profitieren Sie von unserer individuellen und praxisorientierten Ausbildung. Unsere erfahrenen Fluglehrer begleiten Sie auf dem Weg zum Pilotenschein. Kontaktieren Sie uns für weitere Informationen und starten Sie Ihre Pilotenausbildung noch heute.
+  og:url: https://www.flightservice365.com/ppl365/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/MG_4227-1-scaled-1-1024x683.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=109.html
+  en: https://www.flightservice365.com/en/ppl365/
+  x-default: ../index.html%3Fp=109.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Ausbildung PPL-A/NFQ
+  H2: 
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (9 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/MG_4227-1-scaled-1-1024x683.jpg
+     SIZE: 800x534
+  7. ../wp-content/uploads/2022/12/MG_4196-scaled-1-1024x683.jpg
+     SIZE: 800x534
+  8. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  9. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+PPL365 - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Ausbildung PPL-A/NFQ
+Der Start in ein fazinierendes Hobby
+Die Realisierung eines Traums
+Die Vollendung einer bereits begonnen Ausbildung
+PPL-A/NFQ ist während 365 Tagen im Jahr möglich – Ausbildung in Kleingruppen, individuell als Präsenz 
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=109.html#content
+  2. Deutsch -> ../index.html%3Fp=109.html
+  3. English -> https://www.flightservice365.com/en/ppl365/
+  4. Deutsch -> ../index.html%3Fp=109.html
+  5. English -> https://www.flightservice365.com/en/ppl365/
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: ppl365/index.html
+--------------------------------------------------------------------------------
+
+TITLE: PPL365 - Flight Service
+LANGUAGE: de-DE
+CANONICAL: index.html
+
+META DESCRIPTION:
+  Erfüllen Sie sich den Traum vom eigenen Pilotenschein mit Flight Service 365. Entdecken Sie unser PPL365-Angebot für Privatpilotenlizenzen und profitieren Sie von unserer individuellen und praxisorientierten Ausbildung. Unsere erfahrenen Fluglehrer begleiten Sie auf dem Weg zum Pilotenschein. Kontaktieren Sie uns für weitere Informationen und starten Sie Ihre Pilotenausbildung noch heute.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: PPL365 - Flight Service
+  og:description: Erfüllen Sie sich den Traum vom eigenen Pilotenschein mit Flight Service 365. Entdecken Sie unser PPL365-Angebot für Privatpilotenlizenzen und profitieren Sie von unserer individuellen und praxisorientierten Ausbildung. Unsere erfahrenen Fluglehrer begleiten Sie auf dem Weg zum Pilotenschein. Kontaktieren Sie uns für weitere Informationen und starten Sie Ihre Pilotenausbildung noch heute.
+  og:url: https://www.flightservice365.com/ppl365/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/MG_4227-1-scaled-1-1024x683.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=109.html
+  en: https://www.flightservice365.com/en/ppl365/
+  x-default: ../index.html%3Fp=109.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Ausbildung PPL-A/NFQ
+  H2: 
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (9 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/MG_4227-1-scaled-1-1024x683.jpg
+     SIZE: 800x534
+  7. ../wp-content/uploads/2022/12/MG_4196-scaled-1-1024x683.jpg
+     SIZE: 800x534
+  8. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  9. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+PPL365 - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Ausbildung PPL-A/NFQ
+Der Start in ein fazinierendes Hobby
+Die Realisierung eines Traums
+Die Vollendung einer bereits begonnen Ausbildung
+PPL-A/NFQ ist während 365 Tagen im Jahr möglich – Ausbildung in Kleingruppen, individuell als Präsenz 
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=109.html#content
+  2. Deutsch -> ../index.html%3Fp=109.html
+  3. English -> https://www.flightservice365.com/en/ppl365/
+  4. Deutsch -> ../index.html%3Fp=109.html
+  5. English -> https://www.flightservice365.com/en/ppl365/
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: standorte/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Standorte - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../index.html%3Fp=111.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Standorte - Flight Service
+  og:description: Airports und Standorte Son Bonet (ICAO: LESB) Palma de Mallorca – Mallorca In unserem Büro auf dem Flughafengelände von Son Bonet empfangen wir Sie zu allen Aktivitäten auf Mallorca. Ob Charter, Hour-Building, Rundflug oder VIP-Shuttle – von Son Bonet aus sind Sie schnell und unkompliziert in der Luft. Durch die gute Verkehrsanbindung und die schnelle […]
+  og:url: https://www.flightservice365.com/standorte/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/stuttgart-236823_1920_blau1-768x512-1.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=111.html
+  en: ../en/index.html%3Fp=468.html
+  x-default: ../index.html%3Fp=111.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Airports und Standorte
+  H2: Son Bonet (ICAO: LESB)
+Palma de Mallorca – Mallorca
+  H2: Standort Mallorca
+  H2: Tel:
+  H2: Stuttgart (ICAO: EDDS)
+Stuttgart – Deutschland
+  H2: Flightservice365Büro & Verwaltung
+Stuttgart – Deutschland
+  H2: Büro Stuttgart
+  H2: Tel:
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (8 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/stuttgart-236823_1920_blau1-768x512-1.jpg
+  7. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  8. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Standorte - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Airports und Standorte
+Son Bonet (ICAO: LESB)
+Palma de Mallorca – Mallorca
+In unserem Büro auf dem Flughafengelände von Son Bonet empfangen wir Sie zu allen Aktivitäten auf Mallorca.
+Ob Charter, Hour-Building, Rundflug oder VIP-Shuttle 
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=111.html#content
+  2. Deutsch -> ../index.html%3Fp=111.html
+  3. English -> ../en/index.html%3Fp=468.html
+  4. Deutsch -> ../index.html%3Fp=111.html
+  5. English -> ../en/index.html%3Fp=468.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: team-2/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Team - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../team/index.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Team - Flight Service
+  og:description: Unser Team General Manager, Cpt. i.R. Ausbilder und COO, Gregor Schulz Der erfahrene Pilot und Ausbilder sitzt seit über 50 Jahren im Cockpit. Dabei greift er auf die Erfahrung von mehreren tausend Flugstunden auf diversen Flugzeugmustern zurück. Als Pilot und Ausbilder gibt er gerne seine Erfahrungen weiter. Für unsere Gäste ist es immer ein großes […]
+  og:url: https://www.flightservice365.com/team/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/team-3-min.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=113.html
+  en: ../en/index.html%3Fp=466.html
+  x-default: ../index.html%3Fp=113.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Unser Team
+  H2: Gregor Schulz
+  H2: Marcus Schulz
+  H2: Alexander Kiesche
+  H2: Ian Christopher Palmer
+  H2: Fabian Haufe
+  H2: Arto Lerkki
+  H2: Olivier Wilmert
+  H2: Philipp Steeb
+  H2: Stefan Volz
+  H2: Marcel Richter
+  H2: Maximilian Kamleiter
+  H2: Erika Elsser
+  H2: Siegbert Bussemer
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: General Manager, Cpt. i.R. Ausbilder und COO,
+  H3: Safetypilot mit viel Erfahrung auf Kolbe und Turbinen
+  H3: Stv. Ausbildungsleiter, Cpt. A320, B737,B757
+  H3: Safety Pilot
+  H3: Pilot und Ausbilder
+  H3: Stv. Ausbildungsleiter, FI, Cpt. i.R auf A350, B737, B747
+  H3: Linien-Pilot ATPL, FI/IRI
+  H3: Capitän A320/B737, TRI/CRI/SFI/FI
+  H3: Linien-Pilot, ATPL, FI/CRI, PPL-A
+  H3: Pilot und Ausbilder
+  H3: CEO – Geschäftsführerin
+  H3: Pilot und Ausbilder, FI PPL-A
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (20 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/team-3-min.jpg
+     SIZE: 386x506
+  7. ../wp-content/uploads/2022/12/team-2-min.jpg
+     SIZE: 396x512
+  8. ../wp-content/uploads/2023/04/Passfoto-ALEX.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 396x537
+  9. ../wp-content/uploads/2025/09/20250523_161632-1756394977.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 160x205
+  10. ../wp-content/uploads/2025/09/Fabian.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 473x482
+  11. ../wp-content/uploads/2022/12/team-2-min.jpg
+     SIZE: 396x512
+  12. ../wp-content/uploads/2025/09/Olivier_Bild-1024x705.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x551
+  13. ../wp-content/uploads/2025/09/Philipp.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 120x154
+  14. ../wp-content/uploads/2023/04/Passfoto-ALEX.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 396x537
+  15. ../wp-content/uploads/2025/09/Marcel.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 120x154
+  16. ../wp-content/uploads/2025/09/Maximilian.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 455x449
+  17. ../wp-content/uploads/2025/09/Erika.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 385x556
+  18. ../wp-content/uploads/2023/04/Passfoto-ALEX.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 396x537
+  19. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  20. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Team - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Unser Team
+General Manager, Cpt. i.R. Ausbilder und COO,
+Gregor Schulz
+Der erfahrene Pilot und Ausbilder sitzt seit über 50 Jahren im Cockpit. Dabei greift er auf die Erfahrung von mehreren tausend Flugstunden auf diversen Flugzeugmustern zu
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=113.html#content
+  2. Deutsch -> ../index.html%3Fp=113.html
+  3. English -> ../en/index.html%3Fp=466.html
+  4. Deutsch -> ../index.html%3Fp=113.html
+  5. English -> ../en/index.html%3Fp=466.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: team/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Team - Flight Service
+LANGUAGE: de-DE
+CANONICAL: index.html
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Team - Flight Service
+  og:description: Unser Team General Manager, Cpt. i.R. Ausbilder und COO, Gregor Schulz Der erfahrene Pilot und Ausbilder sitzt seit über 50 Jahren im Cockpit. Dabei greift er auf die Erfahrung von mehreren tausend Flugstunden auf diversen Flugzeugmustern zurück. Als Pilot und Ausbilder gibt er gerne seine Erfahrungen weiter. Für unsere Gäste ist es immer ein großes […]
+  og:url: https://www.flightservice365.com/team/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/team-3-min.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=113.html
+  en: ../en/index.html%3Fp=466.html
+  x-default: ../index.html%3Fp=113.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Unser Team
+  H2: Gregor Schulz
+  H2: Marcus Schulz
+  H2: Alexander Kiesche
+  H2: Ian Christopher Palmer
+  H2: Fabian Haufe
+  H2: Arto Lerkki
+  H2: Olivier Wilmert
+  H2: Philipp Steeb
+  H2: Stefan Volz
+  H2: Marcel Richter
+  H2: Maximilian Kamleiter
+  H2: Erika Elsser
+  H2: Siegbert Bussemer
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: General Manager, Cpt. i.R. Ausbilder und COO,
+  H3: Safetypilot mit viel Erfahrung auf Kolbe und Turbinen
+  H3: Stv. Ausbildungsleiter, Cpt. A320, B737,B757
+  H3: Safety Pilot
+  H3: Pilot und Ausbilder
+  H3: Stv. Ausbildungsleiter, FI, Cpt. i.R auf A350, B737, B747
+  H3: Linien-Pilot ATPL, FI/IRI
+  H3: Capitän A320/B737, TRI/CRI/SFI/FI
+  H3: Linien-Pilot, ATPL, FI/CRI, PPL-A
+  H3: Pilot und Ausbilder
+  H3: CEO – Geschäftsführerin
+  H3: Pilot und Ausbilder, FI PPL-A
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (20 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/team-3-min.jpg
+     SIZE: 386x506
+  7. ../wp-content/uploads/2022/12/team-2-min.jpg
+     SIZE: 396x512
+  8. ../wp-content/uploads/2023/04/Passfoto-ALEX.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 396x537
+  9. ../wp-content/uploads/2025/09/20250523_161632-1756394977.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 160x205
+  10. ../wp-content/uploads/2025/09/Fabian.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 473x482
+  11. ../wp-content/uploads/2022/12/team-2-min.jpg
+     SIZE: 396x512
+  12. ../wp-content/uploads/2025/09/Olivier_Bild-1024x705.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x551
+  13. ../wp-content/uploads/2025/09/Philipp.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 120x154
+  14. ../wp-content/uploads/2023/04/Passfoto-ALEX.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 396x537
+  15. ../wp-content/uploads/2025/09/Marcel.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 120x154
+  16. ../wp-content/uploads/2025/09/Maximilian.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 455x449
+  17. ../wp-content/uploads/2025/09/Erika.webp
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 385x556
+  18. ../wp-content/uploads/2023/04/Passfoto-ALEX.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 396x537
+  19. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  20. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Team - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Unser Team
+General Manager, Cpt. i.R. Ausbilder und COO,
+Gregor Schulz
+Der erfahrene Pilot und Ausbilder sitzt seit über 50 Jahren im Cockpit. Dabei greift er auf die Erfahrung von mehreren tausend Flugstunden auf diversen Flugzeugmustern zu
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=113.html#content
+  2. Deutsch -> ../index.html%3Fp=113.html
+  3. English -> ../en/index.html%3Fp=466.html
+  4. Deutsch -> ../index.html%3Fp=113.html
+  5. English -> ../en/index.html%3Fp=466.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: trialflights-2/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Trialflights - Flight Service
+LANGUAGE: de-DE
+CANONICAL: ../trialflights/index.html
+
+META DESCRIPTION:
+  Erleben Sie die Faszination des Fliegens und buchen Sie einen Trial Flight bei Flight Service 365. Fliegen Sie selbst unter Anleitung eines erfahrenen Fluglehrers und genießen Sie den Ausblick aus der Luft. Wir bieten eine große Auswahl an Flugzeugtypen und individuelle Flugrouten für Ihr persönliches Erlebnis. Kontaktieren Sie uns für weitere Informationen und buchen Sie jetzt Ihren Trial Flight.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Trialflights - Flight Service
+  og:description: Erleben Sie die Faszination des Fliegens und buchen Sie einen Trial Flight bei Flight Service 365. Fliegen Sie selbst unter Anleitung eines erfahrenen Fluglehrers und genießen Sie den Ausblick aus der Luft. Wir bieten eine große Auswahl an Flugzeugtypen und individuelle Flugrouten für Ihr persönliches Erlebnis. Kontaktieren Sie uns für weitere Informationen und buchen Sie jetzt Ihren Trial Flight.
+  og:url: https://www.flightservice365.com/trialflights/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/image15-1024x768.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=116.html
+  en: ../en/index.html%3Fp=432.html
+  x-default: ../index.html%3Fp=116.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Trialflight/Schnupperflug
+  H2: Sa Forradada
+  H2: Sa Dragonera
+  H2: ALCUDIA – ARTA – SINEU
+  H2: SIERRA DE LA TRAMONTANA – POLLENSA – ALCUDIA – INCA
+  H2: MALLORCA ISLAND TRAILFLIGHT
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (12 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/image15-1024x768.jpg
+     SIZE: 800x600
+  7. ../wp-content/uploads/2022/12/image33-1024x768.jpg
+     SIZE: 800x600
+  8. ../wp-content/uploads/2022/12/background-5-min-1024x769.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x601
+  9. ../wp-content/uploads/2022/12/background-4-min-1024x769.jpg
+     SIZE: 800x601
+  10. ../wp-content/uploads/2022/12/20200308_150316-1-scaled-1-1024x576.jpg
+     SIZE: 800x450
+  11. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  12. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Trialflights - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Trialflight/Schnupperflug
+Ein Trialflight über Mallorca
+Eine ganz neue Perspektive und ein unvergessliches Erlebnis
+Sie möchten Ihre Lieblingsinsel endlich mal in Ruhe von oben genießen?
+Wie oft haben Sie schon frustriert aus dem Fen
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=116.html#content
+  2. Deutsch -> ../index.html%3Fp=116.html
+  3. English -> ../en/index.html%3Fp=432.html
+  4. Deutsch -> ../index.html%3Fp=116.html
+  5. English -> ../en/index.html%3Fp=432.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+--------------------------------------------------------------------------------
+PAGE: trialflights/index.html
+--------------------------------------------------------------------------------
+
+TITLE: Trialflights - Flight Service
+LANGUAGE: de-DE
+CANONICAL: index.html
+
+META DESCRIPTION:
+  Erleben Sie die Faszination des Fliegens und buchen Sie einen Trial Flight bei Flight Service 365. Fliegen Sie selbst unter Anleitung eines erfahrenen Fluglehrers und genießen Sie den Ausblick aus der Luft. Wir bieten eine große Auswahl an Flugzeugtypen und individuelle Flugrouten für Ihr persönliches Erlebnis. Kontaktieren Sie uns für weitere Informationen und buchen Sie jetzt Ihren Trial Flight.
+
+META ROBOTS: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+OPEN GRAPH TAGS:
+  og:locale: de_DE
+  og:type: article
+  og:title: Trialflights - Flight Service
+  og:description: Erleben Sie die Faszination des Fliegens und buchen Sie einen Trial Flight bei Flight Service 365. Fliegen Sie selbst unter Anleitung eines erfahrenen Fluglehrers und genießen Sie den Ausblick aus der Luft. Wir bieten eine große Auswahl an Flugzeugtypen und individuelle Flugrouten für Ihr persönliches Erlebnis. Kontaktieren Sie uns für weitere Informationen und buchen Sie jetzt Ihren Trial Flight.
+  og:url: https://www.flightservice365.com/trialflights/
+  og:site_name: Flight Service
+  og:image: https://www.flightservice365.com/wp-content/uploads/2022/12/image15-1024x768.jpg
+
+HREFLANG TAGS:
+  de: ../index.html%3Fp=116.html
+  en: ../en/index.html%3Fp=432.html
+  x-default: ../index.html%3Fp=116.html
+
+HEADINGS STRUCTURE:
+  H2: +49 171 6502219
+  H2: Trialflight/Schnupperflug
+  H2: Sa Forradada
+  H2: Sa Dragonera
+  H2: ALCUDIA – ARTA – SINEU
+  H2: SIERRA DE LA TRAMONTANA – POLLENSA – ALCUDIA – INCA
+  H2: MALLORCA ISLAND TRAILFLIGHT
+  H2: Call us
+  H2: Send Us A Message
+  H2: Unser Standort
+  H3: +34 691 367 430
+  H3: Copyright © 2021. All rights reserved.
+  H3: AGB–Datenschutz–Impressum
+  H4: Newsletter
+
+IMAGES ON THIS PAGE (12 total):
+  1. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  2. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  3. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png
+  4. ../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png
+  5. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-600.png
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 600x75
+  6. ../wp-content/uploads/2022/12/image15-1024x768.jpg
+     SIZE: 800x600
+  7. ../wp-content/uploads/2022/12/image33-1024x768.jpg
+     SIZE: 800x600
+  8. ../wp-content/uploads/2022/12/background-5-min-1024x769.jpg
+     ALT: EFSFlightSchool - Flightservice 365
+     SIZE: 800x601
+  9. ../wp-content/uploads/2022/12/background-4-min-1024x769.jpg
+     SIZE: 800x601
+  10. ../wp-content/uploads/2022/12/20200308_150316-1-scaled-1-1024x576.jpg
+     SIZE: 800x450
+  11. ../wp-content/uploads/2022/12/Logo-Web-Negativ-Transparent-800-300x38-1.png
+     SIZE: 300x38
+  12. ../wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png
+     ALT: Flight Service
+     SIZE: 350x233
+
+TEXT CONTENT PREVIEW (first 500 characters):
+Trialflights - Flight Service
+Zum Inhalt springen
+contact@flightservice365.com
+Deutsch
+English
+Deutsch
+English
+Startseite
+Services
+FlugzeugCharter
+BlockCharter
+PPL-A/NFQ
+Hourbuilding
+Trialflights
+Über uns
+Team
+Flotte
+Standorte
+Kontakt
++34 691 367 430
++49 171 6502219
+Trialflight/Schnupperflug
+Ein Trialflight über Mallorca
+Eine ganz neue Perspektive und ein unvergessliches Erlebnis
+Sie möchten Ihre Lieblingsinsel endlich mal in Ruhe von oben genießen?
+Wie oft haben Sie schon frustriert aus dem Fen
+
+KEY LINKS (24 total):
+  1. Zum Inhalt springen -> ../index.html%3Fp=116.html#content
+  2. Deutsch -> ../index.html%3Fp=116.html
+  3. English -> ../en/index.html%3Fp=432.html
+  4. Deutsch -> ../index.html%3Fp=116.html
+  5. English -> ../en/index.html%3Fp=432.html
+  7. Startseite -> ../index.html
+  8. FlugzeugCharter -> ../index.html%3Fp=101.html
+  9. BlockCharter -> ../index.html%3Fp=94.html
+  10. PPL-A/NFQ -> ../index.html%3Fp=109.html
+  11. Hourbuilding -> ../index.html%3Fp=103.html
+  12. Trialflights -> ../index.html%3Fp=116.html
+  13. Team -> ../index.html%3Fp=113.html
+  14. Flotte -> ../index.html%3Fp=98.html
+  15. Standorte -> ../index.html%3Fp=111.html
+  ... and 9 more links
+
+
+================================================================================
+6. NAVIGATION STRUCTURE
+================================================================================
+
+MAIN MENU (German):
+  - Home (index.html)
+  - Flugzeugcharter (flugzeugcharter/index.html)
+  - BlockCharter (blockcharter/index.html)
+  - Flotte (flotte/index.html)
+  - PPL365 (ppl365/index.html)
+  - Hourbuilding (hourbuilding/index.html)
+  - Schnupperflüge (trialflights/index.html)
+  - Standorte (standorte/index.html)
+  - Team (team/index.html)
+  - Kontakt (kontakt/index.html)
+
+MAIN MENU (English - /en/):
+  - Home (en/index.html)
+  - Aircraft Charter (en/aircraft-charter/index.html)
+  - BlockCharter (en/blockcharter/index.html)
+  - Fleet (en/fleet/index.html)
+  - Hour Building (en/hour-building/index.html)
+  - Trial Flights (en/trialflights/index.html)
+  - Locations (en/locations/index.html)
+  - Team (en/team/index.html)
+  - Contact (en/contact/index.html)
+
+================================================================================
+7. TECHNICAL IMPLEMENTATION
+================================================================================
+
+PLATFORM: WordPress with Elementor Page Builder
+THEME: Hello Elementor
+VERSION: Elementor Pro 3.32.2
+
+KEY PLUGINS:
+  - Elementor Pro (page builder)
+  - JEG Elementor Kit (additional widgets)
+  - WPML / Sitepress Multilingual CMS (translations)
+  - MonsterInsights (Google Analytics)
+  - GDPR Cookie Compliance
+  - MetForm (forms)
+  - WP Fastest Cache (performance)
+
+RESPONSIVE BREAKPOINTS:
+  - Desktop: 1025px and above
+  - Tablet: 768px - 1024px
+  - Mobile: below 768px
+
+================================================================================
+8. ANIMATIONS & EFFECTS
+================================================================================
+
+ELEMENTOR ANIMATIONS USED:
+  - fadeIn
+  - fadeInUp
+  - fadeInLeft
+  - fadeInRight
+  - bob (icon animation)
+
+ANIMATION DELAYS:
+  - Typical delay: 200-500ms
+  - Speed: animated-slow class
+
+================================================================================
+9. SEO CONFIGURATION
+================================================================================
+
+SEO PLUGIN: Yoast SEO v26.0
+
+GLOBAL SEO SETTINGS:
+  - Site Name: Flight Service
+  - Tagline: Supporting pilots - Inspiring guests -Enabling students
+  - Organization: Flightservice365
+  - Facebook: https://www.facebook.com/flightservice365
+
+STRUCTURED DATA:
+  - Organization schema
+  - WebSite schema with SearchAction
+  - BreadcrumbList schema
+  - ImageObject schema
+
+================================================================================
+10. ANALYTICS & TRACKING
+================================================================================
+
+GOOGLE ANALYTICS:
+  - Tracking ID: G-E7PVBC7R8H
+  - Plugin: MonsterInsights v9.8.0
+  - Features: Enhanced link attribution, forceSSL
+
+================================================================================
+END OF COMPLETE WEBSITE RECREATION GUIDE
+================================================================================
+
+For the complete list of images, see: IMAGE_LIST.txt
+For raw JSON data, see: website_analysis.json and image_catalog.json
+
+Generated: October 16, 2025
+Source: www.flightservice365.com.zip

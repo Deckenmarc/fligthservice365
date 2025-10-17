@@ -1,0 +1,7 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#333333" rx="8"/>
+  <circle cx="50" cy="45" r="8" fill="#ffe928"/>
+  <path d="M50 53 L50 70 M50 60 L40 65 M50 60 L60 65 M50 70 L40 85 M50 70 L60 85" stroke="#ffe928" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="78" cy="50" r="15" fill="none" stroke="#ffe928" stroke-width="3"/>
+  <text x="64" y="110" font-family="Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Leisure</text>
+</svg>

@@ -1,0 +1,176 @@
+/* Team Page Styles */
+
+/* Page Title Section - Reusing from fleet.css */
+.page-title-section {
+  background-color: var(--color-bg-dark-2);
+  padding: var(--space-70) var(--space-40);
+  text-align: center;
+}
+
+.page-title {
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin: 0 0 var(--space-30) 0;
+}
+
+.page-subtitle {
+  font-size: var(--font-size-medium);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Team Section */
+.team-section {
+  padding: var(--space-70) var(--space-40);
+  background-color: var(--color-bg-dark-1);
+}
+
+/* Team Grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-60);
+  max-width: var(--container-wide);
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-70);
+  }
+}
+
+/* Team Member Card */
+.team-member {
+  background-color: var(--color-bg-dark-3);
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.team-member:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-large);
+}
+
+.team-member-image {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: var(--color-bg-dark-2);
+}
+
+.team-member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.team-member:hover .team-member-image img {
+  transform: scale(1.05);
+}
+
+.team-member-info {
+  padding: var(--space-50);
+}
+
+.team-member-name {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin: 0 0 var(--space-20) 0;
+}
+
+.team-member-role {
+  font-size: var(--font-size-base);
+  color: var(--color-accent-yellow);
+  font-weight: var(--font-weight-medium);
+  margin: 0 0 var(--space-30) 0;
+}
+
+.team-member-bio {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: var(--color-bg-dark-2);
+  padding: var(--space-70) var(--space-40);
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin: 0 0 var(--space-30) 0;
+}
+
+.cta-section p {
+  font-size: var(--font-size-medium);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-50) 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: var(--space-30) var(--space-60);
+  background-color: var(--color-accent-yellow);
+  color: var(--color-bg-dark-1);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+  border-radius: var(--radius-small);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .page-title-section {
+    padding: var(--space-60) var(--space-30);
+  }
+
+  .page-title {
+    font-size: var(--font-size-large);
+  }
+
+  .team-section {
+    padding: var(--space-60) var(--space-30);
+  }
+
+  .team-member-image {
+    height: 300px;
+  }
+
+  .team-member-info {
+    padding: var(--space-40);
+  }
+
+  .cta-section {
+    padding: var(--space-60) var(--space-30);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .team-member-image {
+    height: 320px;
+  }
+}
+

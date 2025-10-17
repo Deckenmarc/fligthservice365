@@ -1,0 +1,30 @@
+<!-- Team Member Card Component Template 
+     Usage: Replace placeholders with actual team member data
+-->
+<article class="team-member">
+  <div class="team-member-image">
+    <picture>
+      <source 
+        type="image/webp"
+        srcset="
+          /src/assets/images/team/member-400.webp 400w,
+          /src/assets/images/team/member-800.webp 800w
+        "
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+      >
+      <img 
+        src="/src/assets/images/team/placeholder-team-member.svg" 
+        alt="Team member name and role"
+        width="400"
+        height="400"
+        loading="lazy"
+        class="team-photo"
+      >
+    </picture>
+  </div>
+  <div class="team-member-info">
+    <h3 class="team-member-name">Member Name</h3>
+    <p class="team-member-role">Role/Title</p>
+    <p class="team-member-bio">Brief biography and qualifications</p>
+  </div>
+</article>

@@ -1,0 +1,65 @@
+<!-- Cookie Consent Banner -->
+<div class="cookie-banner" role="dialog" aria-label="Cookie consent" aria-hidden="true">
+  <div class="cookie-banner-content">
+    <h3 class="cookie-banner-title">Cookie Settings</h3>
+    <p class="cookie-banner-text">
+      We use cookies to enhance your browsing experience and analyze site traffic. 
+      You can accept all cookies or customize your preferences.
+    </p>
+    <div class="cookie-banner-actions">
+      <button class="btn btn-accept-all" data-action="accept-all" aria-label="Accept all cookies">Accept All</button>
+      <button class="btn btn-essential-only" data-action="essential-only" aria-label="Accept essential cookies only">Essential Only</button>
+      <button class="btn btn-customize" data-action="customize" aria-label="Customize cookie preferences">Customize</button>
+    </div>
+    <a href="/privacy" class="cookie-banner-link">Privacy Policy</a>
+  </div>
+</div>
+
+<!-- Cookie Customization Modal -->
+<div class="cookie-modal" role="dialog" aria-label="Cookie preferences" aria-hidden="true" aria-modal="true">
+  <div class="cookie-modal-overlay" data-action="close-modal"></div>
+  <div class="cookie-modal-content">
+    <button class="cookie-modal-close" data-action="close-modal" aria-label="Close modal">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    
+    <h3 class="cookie-modal-title">Cookie Preferences</h3>
+    
+    <div class="cookie-categories">
+      <div class="cookie-category">
+        <label class="cookie-category-label">
+          <input type="checkbox" name="essential" checked disabled aria-describedby="essential-desc">
+          <div class="cookie-category-info">
+            <strong class="cookie-category-name">Essential Cookies</strong>
+            <span class="cookie-category-desc" id="essential-desc">Required for site functionality</span>
+          </div>
+        </label>
+      </div>
+      
+      <div class="cookie-category">
+        <label class="cookie-category-label">
+          <input type="checkbox" name="analytics" aria-describedby="analytics-desc">
+          <div class="cookie-category-info">
+            <strong class="cookie-category-name">Analytics Cookies</strong>
+            <span class="cookie-category-desc" id="analytics-desc">Help us understand how visitors use our site</span>
+          </div>
+        </label>
+      </div>
+      
+      <div class="cookie-category">
+        <label class="cookie-category-label">
+          <input type="checkbox" name="marketing" aria-describedby="marketing-desc">
+          <div class="cookie-category-info">
+            <strong class="cookie-category-name">Marketing Cookies</strong>
+            <span class="cookie-category-desc" id="marketing-desc">Used to deliver relevant advertisements</span>
+          </div>
+        </label>
+      </div>
+    </div>
+    
+    <div class="cookie-modal-actions">
+      <button class="btn btn-save" data-action="save-preferences">Save Preferences</button>
+      <button class="btn btn-cancel" data-action="close-modal">Cancel</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<!-- Aircraft Card Component Template 
+     Usage: Replace placeholders with actual aircraft data
+-->
+<article class="aircraft-card">
+  <div class="aircraft-image">
+    <picture>
+      <source 
+        type="image/webp"
+        srcset="
+          /src/assets/images/fleet/aircraft-320.webp 320w,
+          /src/assets/images/fleet/aircraft-768.webp 768w,
+          /src/assets/images/fleet/aircraft-1024.webp 1024w,
+          /src/assets/images/fleet/aircraft-1920.webp 1920w
+        "
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
+      >
+      <img 
+        src="/src/assets/images/fleet/placeholder-aircraft.svg" 
+        alt="Aircraft model name - exterior view"
+        width="1200"
+        height="800"
+        loading="lazy"
+        class="aircraft-photo"
+      >
+    </picture>
+  </div>
+  <div class="aircraft-details">
+    <h3 class="aircraft-name">Aircraft Name</h3>
+    <dl class="aircraft-specs">
+      <div class="spec-item">
+        <dt>Power:</dt>
+        <dd>250 PS</dd>
+      </div>
+      <div class="spec-item">
+        <dt>Cruising Speed:</dt>
+        <dd>290 km/h (157 Kts)</dd>
+      </div>
+      <div class="spec-item">
+        <dt>Max Takeoff Weight:</dt>
+        <dd>1,399 kg</dd>
+      </div>
+      <div class="spec-item">
+        <dt>Range:</dt>
+        <dd>1050 NM (1,700 Km)</dd>
+      </div>
+      <div class="spec-item">
+        <dt>Navigation:</dt>
+        <dd>VOR, DME, Garmin GNS430</dd>
+      </div>
+    </dl>
+  </div>
+</article>

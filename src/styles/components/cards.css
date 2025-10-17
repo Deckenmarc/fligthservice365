@@ -1,0 +1,312 @@
+/* ============================================
+   Service Card Component
+   ============================================ */
+
+.service-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+.service-card-image {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.service-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(17, 17, 17, 0.3) 0%,
+    rgba(17, 17, 17, 0.7) 50%,
+    rgba(17, 17, 17, 0.9) 100%
+  );
+}
+
+.service-card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-40, 2rem);
+  text-align: center;
+  z-index: 1;
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: var(--space-30, 1.5rem);
+  object-fit: contain;
+}
+
+.service-title {
+  font-size: var(--font-size-large, 28px);
+  font-weight: bold;
+  color: var(--color-white, #ffffff);
+  margin: 0 0 var(--space-20, 1rem) 0;
+}
+
+.service-description {
+  font-size: var(--font-size-medium, 20px);
+  color: var(--color-white, #ffffff);
+  margin: 0 0 var(--space-30, 1.5rem) 0;
+  line-height: 1.5;
+}
+
+.service-link {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: transparent;
+  color: var(--color-white, #ffffff);
+  text-decoration: none;
+  border: 2px solid var(--color-white, #ffffff);
+  border-radius: 4px;
+  font-size: var(--font-size-base, 16px);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.service-link:hover,
+.service-link:focus {
+  background-color: var(--color-accent-yellow, #ffe928);
+  border-color: var(--color-accent-yellow, #ffe928);
+  color: var(--color-bg-dark-1, #111111);
+}
+
+/* Responsive Grid Layout */
+.services-grid {
+  display: grid;
+  gap: var(--space-40, 2rem);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* ============================================
+   Team Member Card Component
+   ============================================ */
+
+.team-member {
+  background-color: var(--color-bg-dark-2, #202020);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.team-member-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: var(--color-bg-dark-3, #333333);
+}
+
+.team-member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-member-info {
+  padding: var(--space-40, 2rem);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-member-name {
+  font-size: var(--font-size-large, 28px);
+  font-weight: bold;
+  color: var(--color-white, #ffffff);
+  margin: 0 0 var(--space-20, 1rem) 0;
+}
+
+.team-member-role {
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-accent-yellow, #ffe928);
+  font-weight: 500;
+  margin: 0 0 var(--space-30, 1.5rem) 0;
+}
+
+.team-member-bio {
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-white, #ffffff);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Responsive Grid Layout for Team Members */
+.team-grid {
+  display: grid;
+  gap: var(--space-40, 2rem);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* ============================================
+   Aircraft Card Component
+   ============================================ */
+
+.aircraft-card {
+  background-color: var(--color-bg-dark-2, #202020);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aircraft-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.aircraft-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: var(--color-bg-dark-3, #333333);
+}
+
+.aircraft-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.aircraft-details {
+  padding: var(--space-40, 2rem);
+  flex: 1;
+}
+
+.aircraft-name {
+  font-size: var(--font-size-large, 28px);
+  font-weight: bold;
+  color: var(--color-white, #ffffff);
+  margin: 0 0 var(--space-40, 2rem) 0;
+}
+
+.aircraft-specs {
+  margin: 0;
+  padding: 0;
+}
+
+.spec-item {
+  display: flex;
+  padding: var(--space-20, 1rem) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.spec-item:last-child {
+  border-bottom: none;
+}
+
+.spec-item dt {
+  font-size: var(--font-size-base, 16px);
+  font-weight: 600;
+  color: var(--color-accent-yellow, #ffe928);
+  min-width: 160px;
+  margin: 0;
+}
+
+.spec-item dd {
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-white, #ffffff);
+  margin: 0;
+  flex: 1;
+}
+
+/* Responsive Grid Layout for Aircraft */
+.aircraft-grid {
+  display: grid;
+  gap: var(--space-40, 2rem);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .aircraft-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .aircraft-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .spec-item {
+    flex-direction: column;
+  }
+  
+  .spec-item dt {
+    margin-bottom: var(--space-10, 0.5rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .aircraft-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

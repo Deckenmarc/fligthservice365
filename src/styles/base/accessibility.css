@@ -1,0 +1,199 @@
+/**
+ * Accessibility Styles
+ * Focus indicators, skip links, and keyboard navigation support
+ */
+
+/* Skip to Main Content Link */
+.skip-to-main {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background-color: var(--color-accent-yellow);
+  color: var(--color-bg-dark-1);
+  padding: var(--space-30) var(--space-40);
+  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+  z-index: 9999;
+  transition: top var(--transition-fast);
+}
+
+.skip-to-main:focus {
+  top: 0;
+  outline: 2px solid var(--color-bg-dark-1);
+  outline-offset: 2px;
+}
+
+/* Global Focus Indicators */
+*:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Focus visible for better keyboard navigation */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Specific focus styles for interactive elements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Focus styles for buttons with backgrounds */
+button:focus,
+.btn:focus,
+.btn-primary:focus,
+.btn-secondary:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Focus styles for form inputs */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+  border-color: var(--color-accent-yellow);
+}
+
+/* Focus styles for cards and interactive containers */
+.service-card:focus-within,
+.team-member:focus-within,
+.aircraft-card:focus-within {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Screen reader only text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Screen reader only text that becomes visible on focus */
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Ensure focus is visible on navigation items */
+.nav-menu a:focus,
+.nav-menu button:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Focus styles for language switcher */
+.language-switcher button:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Focus styles for mobile menu toggle */
+.mobile-menu-toggle:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* Focus styles for cookie banner buttons */
+.cookie-banner button:focus {
+  outline: 2px solid var(--color-bg-dark-1);
+  outline-offset: 2px;
+}
+
+/* Ensure interactive elements are keyboard accessible */
+[role="button"]:not([tabindex="-1"]) {
+  cursor: pointer;
+}
+
+/* Focus styles for modal close buttons */
+.modal-close:focus,
+.cookie-modal button:focus {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  *:focus,
+  *:focus-visible {
+    outline-width: 3px;
+    outline-offset: 3px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .skip-to-main {
+    transition: none;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Ensure interactive elements remain accessible at 200% zoom */
+button,
+a,
+input,
+textarea,
+select {
+  min-height: 44px; /* WCAG 2.1 minimum touch target size */
+  min-width: 44px;
+}
+
+/* Exception for inline links within text */
+p a,
+li a {
+  min-height: auto;
+  min-width: auto;
+}
+
+/* Prevent text overflow at high zoom levels */
+* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Ensure containers don't cause horizontal scroll */
+.container,
+.hero-content,
+.section-content {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure text remains readable at all zoom levels */
+body {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}

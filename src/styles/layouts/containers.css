@@ -1,0 +1,89 @@
+/* Container Utilities */
+
+/* Base container with padding */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-40);
+  padding-right: var(--space-40);
+}
+
+/* Content container - max 800px for readability */
+.container-content {
+  max-width: var(--container-content);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-40);
+  padding-right: var(--space-40);
+}
+
+/* Wide container - max 1200px for wider sections */
+.container-wide {
+  max-width: var(--container-wide);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-40);
+  padding-right: var(--space-40);
+}
+
+/* Full width container - no max-width */
+.container-full {
+  width: 100%;
+  padding-left: var(--space-40);
+  padding-right: var(--space-40);
+}
+
+/* Responsive padding adjustments */
+@media (max-width: 767px) {
+  .container,
+  .container-content,
+  .container-wide,
+  .container-full {
+    padding-left: var(--space-30);
+    padding-right: var(--space-30);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container,
+  .container-content,
+  .container-wide,
+  .container-full {
+    padding-left: var(--space-50);
+    padding-right: var(--space-50);
+  }
+}
+
+/* Section containers with vertical spacing */
+.section {
+  padding-top: var(--space-70);
+  padding-bottom: var(--space-70);
+}
+
+.section-small {
+  padding-top: var(--space-50);
+  padding-bottom: var(--space-50);
+}
+
+.section-large {
+  padding-top: var(--space-80);
+  padding-bottom: var(--space-80);
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-top: var(--space-60);
+    padding-bottom: var(--space-60);
+  }
+  
+  .section-small {
+    padding-top: var(--space-40);
+    padding-bottom: var(--space-40);
+  }
+  
+  .section-large {
+    padding-top: var(--space-70);
+    padding-bottom: var(--space-70);
+  }
+}

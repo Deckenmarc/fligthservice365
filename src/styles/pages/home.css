@@ -1,0 +1,218 @@
+/* ===================================
+   Homepage Styles
+   =================================== */
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/src/assets/images/backgrounds/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(17, 17, 17, 0.7) 0%,
+    rgba(17, 17, 17, 0.5) 50%,
+    rgba(17, 17, 17, 0.7) 100%
+  );
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: var(--space-60);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-tagline {
+  font-size: var(--font-size-xlarge);
+  font-weight: bold;
+  color: var(--color-white);
+  margin: 0 0 var(--space-40) 0;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  font-size: var(--font-size-large);
+  color: var(--color-accent-yellow);
+  margin: 0;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Services Section */
+.services-section {
+  padding: var(--space-80) var(--space-40);
+  background-color: var(--color-bg-dark-2);
+}
+
+.services-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  color: var(--color-white);
+  text-align: center;
+  margin: 0 0 var(--space-60) 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-40);
+}
+
+/* Team Preview Section */
+.team-preview-section {
+  padding: var(--space-80) var(--space-40);
+  background-color: var(--color-bg-dark-1);
+}
+
+.team-preview-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-40);
+  margin-bottom: var(--space-60);
+}
+
+.team-cta {
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: var(--space-30) var(--space-50);
+  background-color: var(--color-accent-yellow);
+  color: var(--color-bg-dark-1);
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: var(--transition-fast);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #ffd700;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 233, 40, 0.3);
+}
+
+/* Responsive Design - Tablet */
+@media (min-width: 768px) {
+  .hero-tagline {
+    font-size: 48px;
+  }
+
+  .hero-subtitle {
+    font-size: 28px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-50);
+  }
+
+  .team-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive Design - Desktop */
+@media (min-width: 1024px) {
+  .hero-tagline {
+    font-size: 56px;
+  }
+
+  .hero-subtitle {
+    font-size: 32px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-60);
+  }
+
+  .team-preview-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .services-section {
+    padding: var(--space-100) var(--space-60);
+  }
+
+  .team-preview-section {
+    padding: var(--space-100) var(--space-60);
+  }
+}
+
+/* Mobile Optimization */
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: 80vh;
+    background-attachment: scroll;
+  }
+
+  .hero-content {
+    padding: var(--space-40);
+  }
+
+  .hero-tagline {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+  }
+
+  .services-section {
+    padding: var(--space-60) var(--space-30);
+  }
+
+  .team-preview-section {
+    padding: var(--space-60) var(--space-30);
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: var(--space-40);
+  }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-section {
+    background-attachment: scroll;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus {
+    transform: none;
+  }
+}

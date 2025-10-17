@@ -1,0 +1,6 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#333333" rx="8"/>
+  <path d="M64 30 L90 70 L80 70 L80 90 L48 90 L48 70 L38 70 Z" fill="#ffe928"/>
+  <circle cx="64" cy="50" r="8" fill="#ffe928"/>
+  <text x="64" y="110" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Charter</text>
+</svg>

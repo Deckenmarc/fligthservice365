@@ -1,0 +1,15 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#skyBg)"/>
+  <ellipse cx="600" cy="400" rx="200" ry="60" fill="#ffffff"/>
+  <path d="M400 400 L800 400 L750 380 L450 380 Z" fill="#cccccc"/>
+  <circle cx="500" cy="400" r="15" fill="#333333"/>
+  <circle cx="700" cy="400" r="15" fill="#333333"/>
+  <text x="600" y="650" font-family="Arial, sans-serif" font-size="32" fill="#ffffff" text-anchor="middle" font-weight="bold">AIRCRAFT PHOTO</text>
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">1200x800px - Replace with actual aircraft image</text>
+</svg>

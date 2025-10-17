@@ -1,0 +1,444 @@
+{
+  "de": {
+    "navigation": {
+      "home": "Startseite",
+      "services": "Services",
+      "servicesSubmenu": {
+        "aircraftCharter": "Flugzeug Charter",
+        "blockCharter": "BlockCharter",
+        "ppl365": "PPL-A/NFQ",
+        "hourBuilding": "Hour Building",
+        "trialFlights": "Rundflüge"
+      },
+      "about": "Über uns",
+      "aboutSubmenu": {
+        "team": "Team",
+        "fleet": "Flotte",
+        "locations": "Standorte"
+      },
+      "contact": "Kontakt"
+    },
+    "services": [
+      {
+        "id": "aircraft-charter",
+        "title": "Flugzeug Charter",
+        "description": "Ausflug oder Geschäftsreise",
+        "icon": "/assets/icons/icon-1.png",
+        "image": "/assets/images/banner-1.jpg",
+        "link": "/de/flugzeugcharter.html"
+      },
+      {
+        "id": "blockcharter",
+        "title": "BlockCharter",
+        "description": "Flexible Flugstunden-Pakete",
+        "icon": "/assets/icons/icon-2.png",
+        "image": "/assets/images/banner-2.jpg",
+        "link": "/de/blockcharter.html"
+      },
+      {
+        "id": "hour-building",
+        "title": "Hour-Building",
+        "description": "Flugstunden sammeln",
+        "icon": "/assets/icons/icon-3.png",
+        "image": "/assets/images/banner-3.jpg",
+        "link": "/de/hourbuilding.html"
+      },
+      {
+        "id": "ppl365",
+        "title": "PPL-365 Training",
+        "description": "Pilotenausbildung",
+        "icon": "/assets/icons/icon-4.png",
+        "image": "/assets/images/banner-4.jpg",
+        "link": "/de/ppl365.html"
+      },
+      {
+        "id": "trial-flights",
+        "title": "Rundflüge",
+        "description": "Erleben Sie Mallorca von oben",
+        "icon": "/assets/icons/icon-5.png",
+        "image": "/assets/images/banner-5.jpg",
+        "link": "/de/rundfluge.html"
+      }
+    ],
+    "team": [
+      {
+        "id": "gregor-schulz",
+        "name": "Gregor Schulz",
+        "role": "General Manager, Cpt. i.R. Ausbilder und COO",
+        "bio": "Der erfahrene Pilot und Ausbilder sitzt seit über 50 Jahren im Cockpit und bringt umfangreiche Erfahrung in der Luftfahrt mit.",
+        "image": "/assets/images/team/gregor-schulz.jpg",
+        "order": 1
+      }
+    ],
+    "aircraft": [
+      {
+        "id": "socata-tb20",
+        "name": "Socata TB20 Trinidad",
+        "category": "charter",
+        "specs": {
+          "power": "250 PS",
+          "cruisingSpeed": "290 km/h (157 Kts)",
+          "maxTakeoffWeight": "1.399 kg",
+          "range": "1050 NM (1.700 Km)",
+          "navigation": "VOR, DME, Garmin GNS430, Autopilot"
+        },
+        "images": [
+          "/assets/images/fleet/tb20-main.jpg",
+          "/assets/images/fleet/tb20-cockpit.jpg"
+        ],
+        "description": "1-motoriges Kurzstrecken- und Ausflugsflugzeug"
+      }
+    ],
+    "pages": {
+      "home": {
+        "title": "Startseite - Flight Service 365",
+        "metaDescription": "Flight Service 365 - Ihr Partner für Flugzeug Charter, Pilotenausbildung und Rundflüge auf Mallorca",
+        "hero": {
+          "tagline": "Supporting pilots - Inspiring guests - Enabling students",
+          "subtitle": "...TRY US & FLY US – Das revolutionäre Erlebnis..."
+        }
+      },
+      "aircraftCharter": {
+        "title": "Flugzeug Charter - Flight Service 365",
+        "metaDescription": "Chartern Sie ein Flugzeug für Geschäftsreisen oder Ausflüge auf Mallorca",
+        "hero": {
+          "title": "Flugzeug Charter",
+          "subtitle": "Ihre private Fluglösung für Geschäft und Freizeit"
+        },
+        "useCases": [
+          {
+            "title": "Geschäftsreisen",
+            "description": "Effiziente Punkt-zu-Punkt-Reisen für Führungskräfte und Teams",
+            "icon": "/assets/icons/business.png"
+          },
+          {
+            "title": "Freizeit & Tourismus",
+            "description": "Erkunden Sie Reiseziele in Ihrem eigenen Tempo",
+            "icon": "/assets/icons/leisure.png"
+          },
+          {
+            "title": "Besondere Anlässe",
+            "description": "Kommen Sie stilvoll zu Hochzeiten, Konferenzen und Feiern",
+            "icon": "/assets/icons/events.png"
+          }
+        ],
+        "bookingProcess": {
+          "title": "So funktioniert es",
+          "steps": [
+            "Kontaktieren Sie uns mit Ihren Reiseanforderungen",
+            "Erhalten Sie ein individuelles Angebot",
+            "Bestätigen Sie Ihre Buchung",
+            "Genießen Sie Ihren Flug"
+          ]
+        }
+      },
+      "blockcharter": {
+        "title": "BlockCharter - Flight Service 365",
+        "metaDescription": "Flexible Flugstunden-Pakete für Ihre Bedürfnisse auf Mallorca",
+        "hero": {
+          "title": "BlockCharter",
+          "subtitle": "Flexible Flugstunden-Pakete für Ihre Bedürfnisse"
+        },
+        "benefits": [
+          {
+            "title": "Wetter-Vorteile",
+            "description": "Mallorca bietet über 300 Sonnentage im Jahr - ideale Flugbedingungen"
+          },
+          {
+            "title": "Kosteneinsparungen",
+            "description": "Sparen Sie durch Paketpreise und vermeiden Sie Standgebühren"
+          },
+          {
+            "title": "Infrastruktur",
+            "description": "Moderne Flugzeuge und professionelle Wartung"
+          }
+        ]
+      },
+      "ppl365": {
+        "title": "PPL-A/NFQ Training - Flight Service 365",
+        "metaDescription": "Pilotenausbildung nach EASA-Standards auf Mallorca",
+        "hero": {
+          "title": "PPL-365 Training",
+          "subtitle": "Ihre Pilotenausbildung auf Mallorca"
+        },
+        "courseInfo": {
+          "description": "Komplette PPL-A Ausbildung nach EASA-Standards",
+          "requirements": [
+            "Mindestalter 17 Jahre",
+            "Medizinisches Tauglichkeitszeugnis Klasse 2",
+            "Ausreichende Deutschkenntnisse"
+          ],
+          "structure": [
+            "Theoretische Ausbildung: 100 Stunden",
+            "Praktische Ausbildung: Mindestens 45 Flugstunden",
+            "Alleinflüge und Überlandflüge"
+          ]
+        }
+      },
+      "hourbuilding": {
+        "title": "Hour-Building - Flight Service 365",
+        "metaDescription": "Sammeln Sie Flugstunden für Ihre Karriere auf Mallorca",
+        "hero": {
+          "title": "Hour-Building",
+          "subtitle": "Sammeln Sie Flugstunden für Ihre Karriere"
+        },
+        "purpose": "Bauen Sie die erforderlichen Flugstunden für kommerzielle Lizenzen auf",
+        "benefits": [
+          "Günstige Stundenpreise",
+          "Flexible Buchung",
+          "Verschiedene Flugzeugtypen",
+          "Erfahrene Fluglehrer verfügbar"
+        ]
+      },
+      "trialflights": {
+        "title": "Rundflüge - Flight Service 365",
+        "metaDescription": "Erleben Sie Mallorca aus der Vogelperspektive mit unseren Rundflügen",
+        "hero": {
+          "title": "Rundflüge über Mallorca",
+          "subtitle": "Erleben Sie die Insel aus der Vogelperspektive"
+        },
+        "routes": [
+          {
+            "name": "Sa Foradada",
+            "description": "Spektakuläre Küstenformation an der Westküste",
+            "duration": "30 Minuten",
+            "image": "/assets/images/routes/sa-foradada.jpg"
+          },
+          {
+            "name": "Sa Dragonera",
+            "description": "Unbewohnte Insel vor der Westküste Mallorcas",
+            "duration": "45 Minuten",
+            "image": "/assets/images/routes/sa-dragonera.jpg"
+          },
+          {
+            "name": "Palma Rundflug",
+            "description": "Überflug der Hauptstadt und Kathedrale",
+            "duration": "20 Minuten",
+            "image": "/assets/images/routes/palma.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "en": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "servicesSubmenu": {
+        "aircraftCharter": "Aircraft Charter",
+        "blockCharter": "BlockCharter",
+        "ppl365": "PPL-A/NFQ",
+        "hourBuilding": "Hour Building",
+        "trialFlights": "Trial Flights"
+      },
+      "about": "About Us",
+      "aboutSubmenu": {
+        "team": "Team",
+        "fleet": "Fleet",
+        "locations": "Locations"
+      },
+      "contact": "Contact"
+    },
+    "services": [
+      {
+        "id": "aircraft-charter",
+        "title": "Aircraft Charter",
+        "description": "Excursion or business trip",
+        "icon": "/assets/icons/icon-1.png",
+        "image": "/assets/images/banner-1.jpg",
+        "link": "/en/aircraft-charter.html"
+      },
+      {
+        "id": "blockcharter",
+        "title": "BlockCharter",
+        "description": "Flexible flight hour packages",
+        "icon": "/assets/icons/icon-2.png",
+        "image": "/assets/images/banner-2.jpg",
+        "link": "/en/blockcharter.html"
+      },
+      {
+        "id": "hour-building",
+        "title": "Hour Building",
+        "description": "Build your flight hours",
+        "icon": "/assets/icons/icon-3.png",
+        "image": "/assets/images/banner-3.jpg",
+        "link": "/en/hour-building.html"
+      },
+      {
+        "id": "ppl365",
+        "title": "PPL-365 Training",
+        "description": "Pilot training",
+        "icon": "/assets/icons/icon-4.png",
+        "image": "/assets/images/banner-4.jpg",
+        "link": "/en/ppl365.html"
+      },
+      {
+        "id": "trial-flights",
+        "title": "Trial Flights",
+        "description": "Experience Mallorca from above",
+        "icon": "/assets/icons/icon-5.png",
+        "image": "/assets/images/banner-5.jpg",
+        "link": "/en/trial-flights.html"
+      }
+    ],
+    "team": [
+      {
+        "id": "gregor-schulz",
+        "name": "Gregor Schulz",
+        "role": "General Manager, Cpt. retd Instructor and COO",
+        "bio": "The experienced pilot and instructor has been in the cockpit for over 50 years and brings extensive experience in aviation.",
+        "image": "/assets/images/team/gregor-schulz.jpg",
+        "order": 1
+      }
+    ],
+    "aircraft": [
+      {
+        "id": "socata-tb20",
+        "name": "Socata TB20 Trinidad",
+        "category": "charter",
+        "specs": {
+          "power": "250 hp",
+          "cruisingSpeed": "290 km/h (157 kts)",
+          "maxTakeoffWeight": "1,399 kg",
+          "range": "1050 NM (1,700 km)",
+          "navigation": "VOR, DME, Garmin GNS430, Autopilot"
+        },
+        "images": [
+          "/assets/images/fleet/tb20-main.jpg",
+          "/assets/images/fleet/tb20-cockpit.jpg"
+        ],
+        "description": "1-engine short-haul and excursion aircraft"
+      }
+    ],
+    "pages": {
+      "home": {
+        "title": "Home - Flight Service 365",
+        "metaDescription": "Flight Service 365 - Your partner for aircraft charter, pilot training and trial flights in Mallorca",
+        "hero": {
+          "tagline": "Supporting pilots - Inspiring guests - Enabling students",
+          "subtitle": "...TRY US & FLY US – The revolutionary experience..."
+        }
+      },
+      "aircraftCharter": {
+        "title": "Aircraft Charter - Flight Service 365",
+        "metaDescription": "Charter an aircraft for business travel or excursions in Mallorca",
+        "hero": {
+          "title": "Aircraft Charter",
+          "subtitle": "Your private flight solution for business and leisure"
+        },
+        "useCases": [
+          {
+            "title": "Business Travel",
+            "description": "Efficient point-to-point travel for executives and teams",
+            "icon": "/assets/icons/business.png"
+          },
+          {
+            "title": "Leisure & Tourism",
+            "description": "Explore destinations at your own pace",
+            "icon": "/assets/icons/leisure.png"
+          },
+          {
+            "title": "Special Events",
+            "description": "Arrive in style for weddings, conferences, and celebrations",
+            "icon": "/assets/icons/events.png"
+          }
+        ],
+        "bookingProcess": {
+          "title": "How It Works",
+          "steps": [
+            "Contact us with your travel requirements",
+            "Receive a customized quote",
+            "Confirm your booking",
+            "Enjoy your flight"
+          ]
+        }
+      },
+      "blockcharter": {
+        "title": "BlockCharter - Flight Service 365",
+        "metaDescription": "Flexible flight hour packages for your needs in Mallorca",
+        "hero": {
+          "title": "BlockCharter",
+          "subtitle": "Flexible flight hour packages for your needs"
+        },
+        "benefits": [
+          {
+            "title": "Weather Advantages",
+            "description": "Mallorca offers over 300 sunny days per year - ideal flying conditions"
+          },
+          {
+            "title": "Cost Savings",
+            "description": "Save with package prices and avoid parking fees"
+          },
+          {
+            "title": "Infrastructure",
+            "description": "Modern aircraft and professional maintenance"
+          }
+        ]
+      },
+      "ppl365": {
+        "title": "PPL-A/NFQ Training - Flight Service 365",
+        "metaDescription": "Pilot training according to EASA standards in Mallorca",
+        "hero": {
+          "title": "PPL-365 Training",
+          "subtitle": "Your pilot training in Mallorca"
+        },
+        "courseInfo": {
+          "description": "Complete PPL-A training according to EASA standards",
+          "requirements": [
+            "Minimum age 17 years",
+            "Class 2 medical certificate",
+            "Sufficient language proficiency"
+          ],
+          "structure": [
+            "Theoretical training: 100 hours",
+            "Practical training: Minimum 45 flight hours",
+            "Solo flights and cross-country flights"
+          ]
+        }
+      },
+      "hourbuilding": {
+        "title": "Hour Building - Flight Service 365",
+        "metaDescription": "Build flight hours for your career in Mallorca",
+        "hero": {
+          "title": "Hour Building",
+          "subtitle": "Build flight hours for your career"
+        },
+        "purpose": "Build the required flight hours for commercial licenses",
+        "benefits": [
+          "Competitive hourly rates",
+          "Flexible booking",
+          "Various aircraft types",
+          "Experienced flight instructors available"
+        ]
+      },
+      "trialflights": {
+        "title": "Trial Flights - Flight Service 365",
+        "metaDescription": "Experience Mallorca from a bird's eye view with our trial flights",
+        "hero": {
+          "title": "Trial Flights over Mallorca",
+          "subtitle": "Experience the island from a bird's eye view"
+        },
+        "routes": [
+          {
+            "name": "Sa Foradada",
+            "description": "Spectacular coastal formation on the west coast",
+            "duration": "30 minutes",
+            "image": "/assets/images/routes/sa-foradada.jpg"
+          },
+          {
+            "name": "Sa Dragonera",
+            "description": "Uninhabited island off the west coast of Mallorca",
+            "duration": "45 minutes",
+            "image": "/assets/images/routes/sa-dragonera.jpg"
+          },
+          {
+            "name": "Palma City Tour",
+            "description": "Overflight of the capital and cathedral",
+            "duration": "20 minutes",
+            "image": "/assets/images/routes/palma.jpg"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+<!-- 
+  Responsive Image Component Template
+  
+  This template demonstrates how to implement responsive images with:
+  - WebP format with fallback
+  - Multiple sizes for different screen widths
+  - Lazy loading for below-the-fold images
+  - Width and height to prevent layout shift
+  - Descriptive alt text for accessibility
+-->
+
+<!-- Example 1: Hero/Background Image (above the fold) -->
+<picture>
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/backgrounds/hero-320.webp 320w,
+      /src/assets/images/backgrounds/hero-768.webp 768w,
+      /src/assets/images/backgrounds/hero-1024.webp 1024w,
+      /src/assets/images/backgrounds/hero-1920.webp 1920w
+    "
+    sizes="100vw"
+  >
+  <source 
+    type="image/jpeg"
+    srcset="
+      /src/assets/images/backgrounds/hero-320.jpg 320w,
+      /src/assets/images/backgrounds/hero-768.jpg 768w,
+      /src/assets/images/backgrounds/hero-1024.jpg 1024w,
+      /src/assets/images/backgrounds/hero-1920.jpg 1920w
+    "
+    sizes="100vw"
+  >
+  <img 
+    src="/src/assets/images/backgrounds/hero-1920.jpg" 
+    alt="Descriptive text about the image content"
+    width="1920"
+    height="1080"
+    class="hero-image"
+  >
+</picture>
+
+<!-- Example 2: Content Image (below the fold, lazy loaded) -->
+<picture>
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/fleet/aircraft-320.webp 320w,
+      /src/assets/images/fleet/aircraft-768.webp 768w,
+      /src/assets/images/fleet/aircraft-1024.webp 1024w,
+      /src/assets/images/fleet/aircraft-1920.webp 1920w
+    "
+    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
+  >
+  <source 
+    type="image/jpeg"
+    srcset="
+      /src/assets/images/fleet/aircraft-320.jpg 320w,
+      /src/assets/images/fleet/aircraft-768.jpg 768w,
+      /src/assets/images/fleet/aircraft-1024.jpg 1024w,
+      /src/assets/images/fleet/aircraft-1920.jpg 1920w
+    "
+    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
+  >
+  <img 
+    src="/src/assets/images/fleet/aircraft-1024.jpg" 
+    alt="Socata TB20 Trinidad aircraft exterior view"
+    width="1200"
+    height="800"
+    loading="lazy"
+    class="aircraft-image"
+  >
+</picture>
+
+<!-- Example 3: Small Icon/Logo (no need for multiple sizes) -->
+<img 
+  src="/src/assets/images/icons/icon-aircraft-charter.png" 
+  alt="Aircraft charter service icon"
+  width="128"
+  height="128"
+  loading="lazy"
+  class="service-icon"
+>
+
+<!-- Example 4: Team Member Photo (square, lazy loaded) -->
+<picture>
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/team/member-400.webp 400w,
+      /src/assets/images/team/member-800.webp 800w
+    "
+    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+  >
+  <source 
+    type="image/jpeg"
+    srcset="
+      /src/assets/images/team/member-400.jpg 400w,
+      /src/assets/images/team/member-800.jpg 800w
+    "
+    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+  >
+  <img 
+    src="/src/assets/images/team/member-400.jpg" 
+    alt="Gregor Schulz, General Manager and Chief Flight Instructor"
+    width="400"
+    height="400"
+    loading="lazy"
+    class="team-photo"
+  >
+</picture>
+
+<!-- Example 5: Decorative Image (empty alt) -->
+<img 
+  src="/src/assets/images/backgrounds/pattern.png" 
+  alt=""
+  width="100"
+  height="100"
+  loading="lazy"
+  class="decorative-pattern"
+  aria-hidden="true"
+>
+
+<!--
+  GUIDELINES:
+  
+  1. Use <picture> element for:
+     - Images that need WebP with fallback
+     - Images that need art direction (different crops for different sizes)
+     - Large images that benefit from multiple sizes
+  
+  2. Use simple <img> for:
+     - Small icons and logos
+     - SVG images
+     - Images that don't need multiple sizes
+  
+  3. Always include:
+     - Descriptive alt text (or empty alt="" for decorative images)
+     - width and height attributes (prevents layout shift)
+     - loading="lazy" for images below the fold
+  
+  4. srcset sizes:
+     - 320w: Mobile portrait
+     - 768w: Tablet portrait / Mobile landscape
+     - 1024w: Tablet landscape / Small desktop
+     - 1920w: Desktop / Large screens
+  
+  5. sizes attribute examples:
+     - "100vw" - Full viewport width
+     - "(max-width: 768px) 100vw, 50vw" - Full width on mobile, half on desktop
+     - "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px" - Responsive with max size
+  
+  6. Alt text best practices:
+     - Be descriptive and specific
+     - Include relevant context (person's name and role, aircraft model, location)
+     - Don't start with "Image of" or "Picture of"
+     - Use empty alt="" for purely decorative images
+     - For complex images, consider aria-describedby for longer descriptions
+-->

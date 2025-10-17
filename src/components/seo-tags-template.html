@@ -1,0 +1,49 @@
+<!-- 
+  SEO Tags Template
+  
+  This template shows how to properly include hreflang and canonical tags in HTML pages.
+  
+  Option 1: Use JavaScript (Dynamic - Recommended for consistency)
+  Include the seo-tags.js script in the <head> section of each page.
+  The script will automatically add the appropriate tags based on the current URL.
+  
+  Option 2: Static HTML (Manual - For better initial SEO)
+  Add the tags manually in the <head> section of each page.
+  Update the URLs to match the specific page.
+-->
+
+<!-- Option 1: Dynamic JavaScript approach -->
+<script src="/scripts/seo-tags.js"></script>
+
+<!-- Option 2: Static HTML approach (Example for German homepage) -->
+<!-- 
+<link rel="canonical" href="https://www.flightservice365.com/de/index.html">
+<link rel="alternate" hreflang="de" href="https://www.flightservice365.com/de/index.html">
+<link rel="alternate" hreflang="en" href="https://www.flightservice365.com/en/index.html">
+<link rel="alternate" hreflang="x-default" href="https://www.flightservice365.com/de/index.html">
+-->
+
+<!-- Example for German Aircraft Charter page -->
+<!--
+<link rel="canonical" href="https://www.flightservice365.com/de/flugzeugcharter.html">
+<link rel="alternate" hreflang="de" href="https://www.flightservice365.com/de/flugzeugcharter.html">
+<link rel="alternate" hreflang="en" href="https://www.flightservice365.com/en/aircraft-charter.html">
+<link rel="alternate" hreflang="x-default" href="https://www.flightservice365.com/de/flugzeugcharter.html">
+-->
+
+<!-- Example for English Fleet page -->
+<!--
+<link rel="canonical" href="https://www.flightservice365.com/en/fleet.html">
+<link rel="alternate" hreflang="de" href="https://www.flightservice365.com/de/flotte.html">
+<link rel="alternate" hreflang="en" href="https://www.flightservice365.com/en/fleet.html">
+<link rel="alternate" hreflang="x-default" href="https://www.flightservice365.com/de/flotte.html">
+-->
+
+<!--
+  Notes:
+  - The canonical tag should point to the current page's full URL
+  - Each page should have hreflang tags for both language versions
+  - The x-default hreflang should point to the default language (German in this case)
+  - All URLs should be absolute (include the full domain)
+  - Update BASE_URL in seo-tags.js when deploying to production
+-->

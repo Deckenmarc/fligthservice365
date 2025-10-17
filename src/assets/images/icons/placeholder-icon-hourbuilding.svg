@@ -1,0 +1,6 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#333333" rx="8"/>
+  <circle cx="64" cy="50" r="25" fill="none" stroke="#ffe928" stroke-width="4"/>
+  <path d="M64 50 L64 30 M64 50 L80 60" stroke="#ffe928" stroke-width="4" stroke-linecap="round"/>
+  <text x="64" y="110" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">Hour Building</text>
+</svg>

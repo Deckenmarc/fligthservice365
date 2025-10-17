@@ -1,0 +1,6 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#333333" rx="8"/>
+  <circle cx="64" cy="50" r="20" fill="none" stroke="#ffe928" stroke-width="4"/>
+  <path d="M64 30 L64 20 M64 70 L64 80 M44 50 L34 50 M84 50 L94 50" stroke="#ffe928" stroke-width="4"/>
+  <text x="64" y="110" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">PPL-365</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#333333" rx="8"/>
+  <path d="M30 60 Q64 30 98 60" fill="none" stroke="#ffe928" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="64" cy="45" r="6" fill="#ffe928"/>
+  <path d="M64 45 L50 55 M64 45 L78 55" stroke="#ffe928" stroke-width="3"/>
+  <text x="64" y="110" font-family="Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Trial Flights</text>
+</svg>
