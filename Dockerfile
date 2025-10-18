@@ -1,34 +1,32 @@
-# Stage 1: Build
-FROM node:20-alpine AS builder
+# Flight Service 365 - Production Dockerfile for Coolify
 
+# Stage 1: Build (if needed for future enhancements)
+FROM node:18-alpine AS builder
 WORKDIR /app
-
-# Copy package files
 COPY package*.json ./
-
-# Install dependencies
-RUN npm ci
-
-# Copy source files
+RUN npm ci --only=production 2>/dev/null || echo "No package.json, skipping npm install"
 COPY . .
 
-# Build the application
-RUN npm run build
-
-# Stage 2: Serve with Nginx
+# Stage 2: Production - Nginx
 FROM nginx:alpine
 
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf
 
-# Copy built files from builder stage
-COPY --from=builder /app/dist /usr/share/nginx/html
+# Copy website files
+COPY --from=builder /app/src/pages /usr/share/nginx/html
+COPY --from=builder /app/src/assets /usr/share/nginx/html/assets
+COPY --from=builder /app/src/styles /usr/share/nginx/html/styles
+COPY --from=builder /app/src/scripts /usr/share/nginx/html/scripts
 
-# Add health check
+# Create a simple index redirect
+RUN echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/en/index.html"></head><body><p>Redirecting...</p></body></html>' > /usr/share/nginx/html/index.html
+
+# Add healthcheck
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget --quiet --tries=1 --spider http://localhost/health || exit 1
+  CMD wget --quiet --tries=1 --spider http://localhost:80/en/index.html || exit 1
 
-# Expose port 80
+# Expose port
 EXPOSE 80
 
 # Start nginx

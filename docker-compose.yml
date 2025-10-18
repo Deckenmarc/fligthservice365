@@ -5,27 +5,26 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: flight-service-website
-    ports:
-      - "8080:80"
+    container_name: flightservice365
     restart: unless-stopped
+    ports:
+      - "80:80"
     environment:
-      # Placeholder for future environment variables
       - NODE_ENV=production
-    volumes:
-      # Optional: Mount for development hot-reload
-      # Uncomment the following lines for development
-      # - ./src:/app/src:ro
-      # - ./dist:/usr/share/nginx/html:ro
     healthcheck:
-      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/health"]
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80/en/index.html"]
       interval: 30s
-      timeout: 3s
+      timeout: 10s
       retries: 3
-      start_period: 5s
+      start_period: 40s
+    labels:
+      - "coolify.managed=true"
+      - "coolify.name=flightservice365"
+      - "coolify.domain=flightservice365.com"
+      - "coolify.https=true"
     networks:
-      - flight-service-network
+      - web
 
 networks:
-  flight-service-network:
-    driver: bridge
+  web:
+    external: true
