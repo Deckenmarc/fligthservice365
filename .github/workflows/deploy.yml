@@ -33,6 +33,11 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: Copy root files
+        run: |
+          cp dist/public/index.html dist/index.html
+          touch dist/.nojekyll
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
