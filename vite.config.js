@@ -4,6 +4,7 @@ import viteImagemin from 'vite-plugin-imagemin';
 import { resolve } from 'path';
 
 export default defineConfig({
+  base: '/fligthservice365/',
   plugins: [
     createHtmlPlugin({
       minify: true,
