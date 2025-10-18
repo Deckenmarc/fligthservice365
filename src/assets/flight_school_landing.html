@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flight Service 365 | Premium Aviation Services | Mallorca & Stuttgart</title>
+    <title>SkyAcademy | Premium Flight School | Mallorca & Stuttgart</title>
     <style>
         * {
             margin: 0;
@@ -13,8 +13,8 @@
 
         :root {
             --primary: #0a66c2;
-            --accent: #ffe928;
-            --dark: #111111;
+            --accent: #ff6b35;
+            --dark: #0f172a;
             --darker: #020617;
             --light: #f1f5f9;
             --text: #334155;
@@ -32,17 +32,17 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(10, 102, 194, 0.95);
+            background: rgba(2, 6, 23, 0.8);
             backdrop-filter: blur(20px) saturate(180%);
             z-index: 1000;
             padding: 0;
-            border-bottom: 1px solid rgba(255,233,40,0.2);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
             transition: all 0.3s ease;
         }
 
         nav.scrolled {
-            background: rgba(10, 102, 194, 0.98);
-            box-shadow: 0 4px 30px rgba(10,102,194,0.4);
+            background: rgba(2, 6, 23, 0.95);
+            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
         }
 
         .nav-container {
@@ -99,7 +99,7 @@
             position: absolute;
             top: calc(100% + 1rem);
             left: -1rem;
-            background: rgba(10, 102, 194, 0.98);
+            background: rgba(15, 23, 42, 0.98);
             backdrop-filter: blur(20px);
             min-width: 220px;
             padding: 0.5rem;
@@ -109,7 +109,7 @@
             transform: translateY(-10px);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-            border: 1px solid rgba(255,233,40,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .nav-item:hover .dropdown {
@@ -130,8 +130,8 @@
 
         .dropdown a:hover {
             background: var(--accent);
-            color: var(--dark);
             transform: translateX(5px);
+            color: white;
         }
 
         .lang-switch {
@@ -156,10 +156,10 @@
 
         .lang-btn.active {
             background: var(--accent);
-            color: var(--dark);
+            color: white;
         }
 
-        /* Hero Section */
+        /* Hero Section with Large Image */
         .hero {
             height: 100vh;
             position: relative;
@@ -167,7 +167,6 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            background: linear-gradient(135deg, #0a66c2 0%, #111111 100%);
         }
 
         .hero-bg {
@@ -176,9 +175,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: 
-                linear-gradient(135deg, rgba(10, 102, 194, 0.7) 0%, rgba(17, 17, 17, 0.85) 100%),
-                url('src/assets/images/efsflightschool-Mallorca.jpg');
+            background: linear-gradient(135deg, rgba(10, 102, 194, 0.7) 0%, rgba(2, 6, 23, 0.8) 100%),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><defs><linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:%230a66c2;stop-opacity:1" /><stop offset="100%" style="stop-color:%23020617;stop-opacity:1" /></linearGradient></defs><rect fill="url(%23sky)" width="1920" height="1080"/><circle cx="1600" cy="200" r="400" fill="%23ffffff" opacity="0.03"/><circle cx="300" cy="800" r="350" fill="%23ffffff" opacity="0.02"/><path d="M0 700 Q400 650 800 700 T1600 700 L1920 700 L1920 1080 L0 1080 Z" fill="%23ff6b35" opacity="0.1"/></svg>');
             background-size: cover;
             background-position: center;
             z-index: 1;
@@ -190,9 +188,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><circle cx="50" cy="50" r="1" fill="white" opacity="0.3"/></svg>');
-            background-size: 50px 50px;
-            opacity: 0.1;
+            background: radial-gradient(circle at 30% 50%, rgba(255, 107, 53, 0.15) 0%, transparent 50%);
             z-index: 2;
         }
 
@@ -208,8 +204,8 @@
         .hero-badge {
             display: inline-block;
             padding: 0.6rem 1.5rem;
-            background: rgba(255, 233, 40, 0.15);
-            border: 1px solid rgba(255, 233, 40, 0.4);
+            background: rgba(255, 107, 53, 0.2);
+            border: 1px solid rgba(255, 107, 53, 0.5);
             border-radius: 50px;
             font-size: 0.85rem;
             font-weight: 600;
@@ -218,7 +214,6 @@
             margin-bottom: 2rem;
             animation: fadeInDown 1s ease-out;
             backdrop-filter: blur(10px);
-            color: var(--accent);
         }
 
         @keyframes fadeInDown {
@@ -313,14 +308,13 @@
 
         .btn-primary {
             background: var(--accent);
-            color: var(--dark);
-            box-shadow: 0 10px 40px rgba(255, 233, 40, 0.4);
-            font-weight: 700;
+            color: white;
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.4);
         }
 
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 50px rgba(255, 233, 40, 0.6);
+            box-shadow: 0 15px 50px rgba(255, 107, 53, 0.6);
         }
 
         .btn-secondary {
@@ -368,37 +362,10 @@
             margin-top: 0.5rem;
         }
 
-        /* Diagonal Banner */
-        .diagonal-banner {
-            position: absolute;
-            top: 180px;
-            left: -50px;
-            color: var(--accent);
-            transform: rotate(-45deg);
-            font-weight: 900;
-            font-size: clamp(1.3rem, 2.2vw, 2rem);
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            z-index: 4;
-            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
-            line-height: 1.4;
-            text-align: center;
-            width: 450px;
-        }
-
-        @media (max-width: 768px) {
-            .diagonal-banner {
-                font-size: 1rem;
-                top: 130px;
-                left: -80px;
-                width: 320px;
-            }
-        }
-
         /* Video Section */
         .video-section {
             padding: 0;
-            background: var(--dark);
+            background: var(--darker);
             position: relative;
         }
 
@@ -460,13 +427,44 @@
             overflow: hidden;
             box-shadow: 0 30px 80px rgba(0,0,0,0.5);
             aspect-ratio: 16/9;
-            background: #000;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
         }
 
-        .video-wrapper iframe {
+        .video-placeholder {
             width: 100%;
             height: 100%;
-            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(10, 102, 194, 0.3), rgba(255, 107, 53, 0.3)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"><rect fill="%230a66c2" width="800" height="450"/><circle cx="400" cy="225" r="60" fill="white" opacity="0.9"/><path d="M 385 205 L 420 225 L 385 245 Z" fill="%230a66c2"/></svg>');
+            background-size: cover;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .video-placeholder:hover {
+            transform: scale(1.02);
+        }
+
+        .play-button {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: var(--primary);
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .play-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.4);
         }
 
         /* Features Section */
@@ -482,7 +480,7 @@
         }
 
         .section-tag {
-            color: var(--primary);
+            color: var(--accent);
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -506,23 +504,11 @@
         }
 
         .features-grid {
-            max-width: 1600px;
+            max-width: 1400px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 2rem;
-        }
-
-        @media (max-width: 1400px) {
-            .features-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media (max-width: 900px) {
-            .features-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
         }
 
         .feature-card {
@@ -630,22 +616,17 @@
             background: linear-gradient(135deg, var(--primary), var(--accent));
             position: relative;
             overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
+        }
+
+        .location-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><rect fill="%230a66c2" width="600" height="300"/><circle cx="500" cy="80" r="40" fill="white" opacity="0.1"/><circle cx="100" cy="200" r="60" fill="white" opacity="0.05"/></svg>');
             background-size: cover;
-            background-position: center;
-        }
-
-        .location-image.mallorca {
-            background-image: linear-gradient(135deg, rgba(10, 102, 194, 0.3), rgba(17, 17, 17, 0.5)),
-                              url('src/assets/images/efsflightschool-Mallorca.jpg');
-        }
-
-        .location-image.stuttgart {
-            background-image: linear-gradient(135deg, rgba(10, 102, 194, 0.3), rgba(17, 17, 17, 0.5)),
-                              url('src/assets/images/stuttgart-236823_1920_blau1-768x512-1.jpg');
         }
 
         .location-info {
@@ -710,7 +691,7 @@
             right: 0;
             width: 50%;
             height: 100%;
-            background: radial-gradient(circle at top right, rgba(255, 233, 40, 0.1), transparent);
+            background: radial-gradient(circle at top right, rgba(255, 107, 53, 0.1), transparent);
         }
 
         .lead-container {
@@ -899,7 +880,7 @@
     <!-- Navigation -->
     <nav id="mainNav">
         <div class="nav-container">
-            <div class="logo">Flight Service 365</div>
+            <div class="logo">SkyAcademy</div>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
                 <li class="nav-item">
@@ -907,7 +888,7 @@
                     <div class="dropdown">
                         <a href="#charter">Aircraft Charter</a>
                         <a href="#blockcharter">BlockCharter</a>
-                        <a href="#ppl">PPL-365</a>
+                        <a href="#ppl">PPL-A/NFQ</a>
                         <a href="#building">Hour Building</a>
                         <a href="#trial">Trial Flights</a>
                     </div>
@@ -931,12 +912,11 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="diagonal-banner">Einzige deutsche Flugschule<br>mit eigenen Charterflugzeugen</div>
         <div class="hero-bg"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <div class="hero-badge">🏆 Premium Aviation Services</div>
-            <h1>Supporting Pilots<br>Inspiring Guests<br>Enabling Students</h1>
+            <div class="hero-badge">Premium Aviation Training</div>
+            <h1>Your Journey to the Skies Starts Here</h1>
             <p class="hero-subtitle">Experience world-class flight training and charter services in the stunning locations of Mallorca and Stuttgart</p>
             <div class="cta-group">
                 <a href="#contact" class="btn btn-primary">
@@ -979,12 +959,9 @@
             </div>
             
             <div class="video-wrapper">
-                <iframe 
-                    src="https://www.youtube.com/embed/F1JLqOmT83E" 
-                    title="Flight Service 365 Video" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+                <div class="video-placeholder">
+                    <div class="play-button">▶</div>
+                </div>
             </div>
         </div>
     </section>
@@ -992,7 +969,7 @@
     <!-- Features/Services Section -->
     <section class="features" id="services">
         <div class="section-header">
-            <div class="section-tag">OUR SERVICES</div>
+            <div class="section-tag">Our Services</div>
             <h2 class="section-title">Everything You Need to Soar</h2>
             <p class="section-description">From luxury charter flights to comprehensive pilot training programs, we offer premium aviation services tailored to your needs.</p>
         </div>
@@ -1014,7 +991,7 @@
             
             <div class="feature-card">
                 <div class="feature-icon">🎓</div>
-                <h3>PPL-365 Training</h3>
+                <h3>PPL-A/NFQ Training</h3>
                 <p>Achieve your dream of becoming a licensed pilot with our comprehensive training programs led by experienced instructors.</p>
                 <a href="#contact" class="feature-link">Start Training →</a>
             </div>
@@ -1033,52 +1010,58 @@
                 <a href="#contact" class="feature-link">Book Now →</a>
             </div>
             
+            <div class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>Advanced Training</h3>
+                <p>Continue your aviation journey with advanced certifications, instrument ratings, and specialized courses.</p>
+                <a href="#contact" class="feature-link">Explore Options →</a>
+            </div>
         </div>
     </section>
 
     <!-- Locations Section -->
     <section class="locations" id="locations">
         <div class="section-header">
-            <div class="section-tag">OUR LOCATIONS</div>
+            <div class="section-tag">Our Locations</div>
             <h2 class="section-title">Train in Europe's Finest Destinations</h2>
             <p class="section-description">Two premier locations offering world-class facilities and perfect flying conditions year-round.</p>
         </div>
         
         <div class="locations-grid">
             <div class="location-card">
-                <div class="location-image mallorca"></div>
+                <div class="location-image"></div>
                 <div class="location-info">
-                    <h3>Mallorca, Spain</h3>
-                    <span class="location-tag">Island Paradise • LESB</span>
+                    <h3>🏝️ Mallorca</h3>
+                    <span class="location-tag">Island Paradise</span>
                     <p>Train in one of Europe's most stunning destinations with 300+ days of sunshine and perfect flying conditions.</p>
                     <ul class="location-features">
                         <li>Year-round excellent weather</li>
                         <li>Scenic coastal flight routes</li>
-                        <li>Son Bonet Airport (LESB)</li>
+                        <li>International airport access</li>
                         <li>Modern training facilities</li>
                         <li>English & German instruction</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
-                        <span>Contact Mallorca: +34 691 367 430</span>
+                        <span>Contact Mallorca</span>
                     </a>
                 </div>
             </div>
             
             <div class="location-card">
-                <div class="location-image stuttgart"></div>
+                <div class="location-image"></div>
                 <div class="location-info">
-                    <h3>Stuttgart, Germany</h3>
-                    <span class="location-tag">Central European Hub • EDDS</span>
+                    <h3>🏢 Stuttgart</h3>
+                    <span class="location-tag">Central European Hub</span>
                     <p>State-of-the-art facilities in Germany's aviation heartland with excellent infrastructure and accessibility.</p>
                     <ul class="location-features">
                         <li>Advanced flight simulators</li>
                         <li>Business aviation center</li>
-                        <li>Stuttgart Airport (EDDS)</li>
+                        <li>Convenient city access</li>
                         <li>Year-round operations</li>
                         <li>Premium fleet selection</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
-                        <span>Contact Stuttgart: +49 171 6502219</span>
+                        <span>Contact Stuttgart</span>
                     </a>
                 </div>
             </div>
@@ -1112,47 +1095,52 @@
             </div>
             
             <div class="form-card">
-                <form action="https://formspree.io/f/xrbyjydk" method="POST" id="leadForm">
+                <form id="leadForm">
                     <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
                     </div>
                     
                     <div class="form-group">
-                        <label for="email">E-Mail *</label>
-                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
                     </div>
                     
                     <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone" placeholder="+49 123 456789">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+49 XXX XXX XXXX">
                     </div>
                     
                     <div class="form-group">
-                        <label for="subject">Subject *</label>
-                        <select id="subject" name="subject" required>
-                            <option value="">Please select...</option>
-                            <option value="charter">Charter Request</option>
-                            <option value="training">Flight Training</option>
-                            <option value="info">General Information</option>
-                            <option value="other">Other</option>
+                        <label for="service">I'm Interested In *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service...</option>
+                            <option value="trial">Trial Flight</option>
+                            <option value="ppl">PPL-A/NFQ Training</option>
+                            <option value="building">Hour Building</option>
+                            <option value="charter">Aircraft Charter</option>
+                            <option value="blockcharter">BlockCharter</option>
+                            <option value="other">Other Services</option>
                         </select>
                     </div>
                     
                     <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help you..." required></textarea>
+                        <label for="location">Preferred Location *</label>
+                        <select id="location" name="location" required>
+                            <option value="">Select location...</option>
+                            <option value="mallorca">Mallorca</option>
+                            <option value="stuttgart">Stuttgart</option>
+                            <option value="both">Either Location</option>
+                        </select>
                     </div>
                     
-                    <div class="form-group" style="display: flex; align-items: start; gap: 0.75rem;">
-                        <input type="checkbox" id="privacy" name="privacy" required style="width: auto; margin-top: 0.25rem;">
-                        <label for="privacy" style="margin-bottom: 0; font-size: 0.9rem; line-height: 1.5;">
-                            I have read and accept the <a href="#privacy" style="color: var(--accent); text-decoration: underline;">Privacy Policy</a>. *
-                        </label>
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your aviation goals and any questions you have..."></textarea>
                     </div>
                     
                     <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
-                        <span>Send Message</span>
+                        <span>Send Request</span>
                         <span>→</span>
                     </button>
                 </form>
@@ -1164,16 +1152,15 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Flight Service 365</h4>
+                <h4>SkyAcademy</h4>
                 <p>Premium flight training and charter services in Mallorca and Stuttgart. Your journey to the skies starts with us.</p>
-                <p style="margin-top: 1.5rem; color: var(--accent);">✈️ TRY US & FLY US</p>
             </div>
             
             <div class="footer-section">
                 <h4>Services</h4>
                 <a href="#charter">Aircraft Charter</a>
                 <a href="#blockcharter">BlockCharter</a>
-                <a href="#ppl">PPL-365 Training</a>
+                <a href="#ppl">PPL-A/NFQ Training</a>
                 <a href="#building">Hour Building</a>
                 <a href="#trial">Trial Flights</a>
             </div>
@@ -1188,16 +1175,14 @@
             
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p>📧 contact@flightservice365.com</p>
-                <p>📞 +34 691 367 430 (Mallorca)</p>
-                <p>📞 +49 171 6502219 (Stuttgart)</p>
-                <p style="margin-top: 1rem;">📍 Son Bonet, Mallorca</p>
-                <p>📍 Stuttgart Airport, Germany</p>
+                <p>📧 info@skyacademy.eu</p>
+                <p>📞 +34 XXX XXX XXX (Mallorca)</p>
+                <p>📞 +49 XXX XXX XXXX (Stuttgart)</p>
             </div>
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2025 Flight Service 365. All rights reserved. | <a href="#privacy" style="display: inline; color: inherit;">Privacy Policy</a> | <a href="#terms" style="display: inline; color: inherit;">Terms of Service</a> | <a href="#imprint" style="display: inline; color: inherit;">Impressum</a></p>
+            <p>&copy; 2025 SkyAcademy. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
     </footer>
 
@@ -1218,11 +1203,28 @@
             btns.forEach(btn => btn.classList.remove('active'));
             event.target.classList.add('active');
             console.log('Language switched to:', lang);
-            // In production, this would navigate to /de/ or /en/ pages
+            // In production, this would load different content
         }
 
-        // Form is now handled by Formspree - no custom JavaScript needed
-        // Formspree will handle submission and redirect
+        // Form submission
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                service: document.getElementById('service').value,
+                location: document.getElementById('location').value,
+                message: document.getElementById('message').value
+            };
+            
+            console.log('Form submitted:', formData);
+            
+            alert('Thank you for your interest! We will contact you within 24 hours.\n\nVielen Dank für Ihr Interesse! Wir werden uns innerhalb von 24 Stunden bei Ihnen melden.');
+            
+            this.reset();
+        });
 
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -1238,7 +1240,10 @@
             });
         });
 
-        // Video is now embedded via iframe - no click handler needed
+        // Video placeholder interaction
+        document.querySelector('.video-placeholder').addEventListener('click', function() {
+            alert('Video player would open here.\n\nIn production, this would embed a YouTube/Vimeo video or custom video player.');
+        });
     </script>
 </body>
 </html>

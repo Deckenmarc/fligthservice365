@@ -439,7 +439,7 @@
   - Configure server/hosting to serve these pages for 404 errors
   - _Requirements: 1.3_
 
-- [-] 20. Final integration and testing
+- [x] 20. Final integration and testing
 - [x] 20.1 Test language switching across all pages
   - Manually test language switcher on every page (13 pages × 2 languages = 26 pages)
   - Verify URL translation works correctly (e.g., /de/flugzeugcharter.html ↔ /en/aircraft-charter.html)
@@ -456,7 +456,7 @@
   - Test on actual devices if possible (iPhone, iPad, Android)
   - _Requirements: 2.1, 2.2, 2.3, 2.4_
 
-- [ ] 20.3 Test form submissions
+- [x] 20.3 Test form submissions
   - Test contact form: validation (required fields, email format), submission, success/error messages
   - Test newsletter signup: email validation, submission, success message
   - Test footer quick contact form: validation, submission
@@ -465,7 +465,7 @@
   - Verify form data is sent to correct endpoint and emails are received
   - _Requirements: 9.2, 9.3, 9.4, 22.2, 22.3, 22.4_
 
-- [ ] 20.4 Test cookie consent flow
+- [x] 20.4 Test cookie consent flow
   - Test banner appearance on first visit (after 1 second delay)
   - Test "Accept All" button: banner dismisses, consent stored, analytics loads
   - Test "Essential Only" button: banner dismisses, only essential cookies set
@@ -475,7 +475,7 @@
   - Verify analytics scripts only load after consent granted
   - _Requirements: 14.1, 14.2, 14.5_
 
-- [ ] 20.5 Run accessibility audit
+- [x] 20.5 Run accessibility audit
   - Run Lighthouse accessibility audit in Chrome DevTools (target score 90+)
   - Test with screen reader (NVDA on Windows or VoiceOver on Mac): navigation, form labels, image alt text, heading structure
   - Verify keyboard navigation: Tab through all interactive elements, Enter/Space to activate, Escape to close modals
@@ -484,7 +484,7 @@
   - Verify skip to main content link works
   - _Requirements: 15.1, 15.2, 15.3, 15.4, 15.5_
 
-- [ ] 20.6 Run performance audit
+- [x] 20.6 Run performance audit
   - Run Lighthouse performance audit in Chrome DevTools (target score 90+)
   - Test page load times using Network tab (target < 3s on 3G, < 1s on broadband)
   - Verify Core Web Vitals: LCP < 2.5s, FID < 100ms, CLS < 0.1
@@ -493,7 +493,7 @@
   - Verify CSS and JS are minified in production build
   - _Requirements: 13.1, 13.2, 13.3, 13.4, 13.5_
 
-- [ ] 20.7 Validate SEO implementation
+- [x] 20.7 Validate SEO implementation
   - Verify all meta tags are present on all pages: title, description, Open Graph, Twitter Card
   - Test Open Graph tags with Facebook Sharing Debugger and Twitter Card Validator
   - Validate sitemap.xml format using online validator or Google Search Console
@@ -503,7 +503,7 @@
   - Test structured data if implemented (using Google Rich Results Test)
   - _Requirements: 12.1, 12.2, 12.3, 12.4, 12.5_
 
-- [-] 21. Build and deploy to GitHub Pages
+- [x] 21. Build and deploy to GitHub Pages
   - Run production build locally: npm run build
   - Test built files locally: serve dist folder with local server, verify all pages work
   - Commit and push code to GitHub repository
