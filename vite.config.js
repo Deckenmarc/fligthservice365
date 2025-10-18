@@ -5,6 +5,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   base: '/fligthservice365/',
+  publicDir: 'public',
   plugins: [
     createHtmlPlugin({
       minify: true,
@@ -61,6 +62,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
+        // Root index (redirects to English)
+        main: resolve(__dirname, 'public/index.html'),
+        
         // German pages
         'de-index': resolve(__dirname, 'src/pages/de/index.html'),
         'de-flugzeugcharter': resolve(__dirname, 'src/pages/de/flugzeugcharter.html'),
