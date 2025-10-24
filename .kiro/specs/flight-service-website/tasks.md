@@ -179,7 +179,7 @@
   - Add section spacing and alternating background colors
   - _Requirements: 3.1, 3.2, 4.2, 4.3_
 
-- [-] 11. Build service pages
+- [x] 11. Build service pages
 - [x] 11.1 Create Aircraft Charter pages (de/flugzeugcharter.html, en/aircraft-charter.html)
   - Include header and footer components, add meta tags
   - Build hero section with aircraft charter imagery and title/subtitle
